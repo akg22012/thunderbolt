@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.799" height="38.127" viewBox="0 0 182.799 38.127">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4747" data-name="Rectangle 4747" width="182.799" height="38.127" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_18094" data-name="Group 18094" transform="translate(-112 -8527)">
+    <g id="Group_18093" data-name="Group 18093" transform="translate(112 8527)">
+      <g id="Group_18086" data-name="Group 18086" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <text id="thunderbolt" transform="translate(49.69 28.009)" fill="#191414" font-size="24" font-family="AbeatbyKai, abeatbyKai"><tspan x="0" y="0">thu</tspan><tspan y="0" letter-spacing="-0.023em">n</tspan><tspan y="0">derbolt</tspan></text>
+        <path id="Path_98193" data-name="Path 98193" d="M24.133,18.659h9.18A2.619,2.619,0,0,1,36.08,21.1a2.619,2.619,0,0,1-2.767,2.44H29.906s-3.328-.351-3.328,2.546v9.18a2.766,2.766,0,1,1-5.532,0V17.1s.241-3.067-2.455-3.157H14.541a2.619,2.619,0,0,0-2.767,2.439,2.619,2.619,0,0,0,2.767,2.44h3.407" transform="translate(-4.222 -5.001)" fill="none" stroke="#1db954" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" cx="18.422" cy="18.422" r="18.422" transform="translate(0.642 0.5)" fill="none" stroke="#1db954" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
