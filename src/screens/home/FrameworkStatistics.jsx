@@ -15,7 +15,6 @@ import seventy from "../../images/circles/70.webp";
 import eighty from "../../images/circles/80.webp";
 import ninety from "../../images/circles/90.webp";
 import hundred from "../../images/circles/100.webp";
-import spinner from "../../images/spinner.gif";
 
 export const FrameworkStatistics = () => {
   const [baseUrl, setBaseUrl] = useState("");

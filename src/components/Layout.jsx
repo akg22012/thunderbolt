@@ -26,20 +26,25 @@ const Layout = ({ children }) => {
         <html lang="en" title="Thunderbolt by RazrCorp" />
         <title>Thunderbolt by RazrCorp</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:locale" content="en_US" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
 
         <meta
-          name="description"
-          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
+          property="og:image"
+          itemProp="image"
+          content={
+            "https://res.cloudinary.com/xuppi-com/image/upload/v1666189075/preview-img_u3wq4l.png"
+          }
         />
-        <meta
-          name="keywords"
-          content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
-        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:site_name" content="Thunderbolt" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={"https://thunderboltjs.com/"} />
 
         <meta
           property="og:title"
@@ -49,20 +54,36 @@ const Layout = ({ children }) => {
           property="og:description"
           content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
         />
-
         <meta
-          property="og:image"
-          content={
-            "https://res.cloudinary.com/xuppi-com/image/upload/v1666165547/Thunderbolt_favicon_white_bs1k0i.png"
-          }
+          name="description"
+          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
         />
+        <meta
+          name="keywords"
+          content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+
         <link
           rel="icon"
           type="image/png"
           href={ImageConstants.faviconImage}
           sizes="32x32"
         />
-        <script src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"></script>
+        <script
+          defer
+          src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"
+        ></script>
       </Helmet>
       <Header />
       {children}
