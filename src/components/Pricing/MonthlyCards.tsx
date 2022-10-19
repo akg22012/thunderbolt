@@ -22,6 +22,9 @@ const MonthlyCards = ({
       title: "Economy",
       des: "Launch your online platform, your way, with ease",
       price: convertPrice(isMonthly ? 50 : 40),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=050381d7-80e7-2d4d-16dc-6413569926e5"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=1280d163-9e23-7d43-e23c-d4610589e572",
       features: [
         "Standard Performance ",
         "  1 website",
@@ -47,6 +50,9 @@ const MonthlyCards = ({
       title: "Standard",
       des: "The complete solution for your business growth",
       price: convertPrice(isMonthly ? 100 : 80),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=9293e8d5-69d0-7245-211b-84e853121607"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=1280d163-9e23-7d43-e82a-d4610589e572",
       features: [
         "Standard Performance",
         " 1 website",
@@ -72,6 +78,9 @@ const MonthlyCards = ({
       title: "Ultimate",
       des: "Perfect for growing your high traffic sites    ",
       price: convertPrice(isMonthly ? 250 : 200),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=d35983e2-306e-7540-d1ea-54981d210d76"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=9293e8d5-69d0-7245-91f8-4e8531216076&pid=050381d7-80e7-2d4d-011c-6413569926e5",
       features: [
         "Standard Performance ",
         "1 website",
@@ -123,7 +132,6 @@ const MonthlyCards = ({
   return (
     <>
       <div className="row">
-
         {cards?.map((d, key) => {
           return (
             <>
@@ -138,10 +146,10 @@ const MonthlyCards = ({
                           d.symbol === false
                             ? "monthly-card-description"
                             : key === 2
-                              ? "monthly-card-description  "
-                              : key === 0
-                                ? "monthly-card-description"
-                                : "monthly-card-description px-4"
+                            ? "monthly-card-description  "
+                            : key === 0
+                            ? "monthly-card-description"
+                            : "monthly-card-description px-4"
                         }
                       >
                         {d.des}
@@ -149,16 +157,13 @@ const MonthlyCards = ({
                     )}
                     <p
                       className={
-                        d?.symbol === false
-                          ? "contact-sales "
-                          : "monthly-cost"
+                        d?.symbol === false ? "contact-sales " : "monthly-cost"
                       }
                     >
                       {d?.symbol !== false && (
                         <sup className="suptext">
                           {d?.price.currency === "euro" ? "€" : "£"}
                         </sup>
-
                       )}
                       <strong>{d.price.price}</strong>
                       {showFeaturs && d?.symbol !== false && (
@@ -179,24 +184,21 @@ const MonthlyCards = ({
                             : "monthly-card-description mt-4 px-4"
                         }
                       >
-                        We set up and add a newsletter subscription form to
-                        your website from any 3rd party provider such as
-                        Mailchimp.
+                        We set up and add a newsletter subscription form to your
+                        website from any 3rd party provider such as Mailchimp.
                       </p>
                     )}
 
                     <a
                       target={"_blank"}
-                      href="https://dashboard.thunderboltjs.com/"
+                      href={d.link}
                       className={
                         d.symbol === false
                           ? "get-started-btn contact-sales-btn"
                           : "get-started-btn "
                       }
                     >
-
                       Get Started
-
                     </a>
                   </div>
                   {showFeaturs && (
@@ -229,7 +231,6 @@ const MonthlyCards = ({
             </>
           );
         })}
-
       </div>
 
       {showBootom && (

@@ -24,6 +24,7 @@ const HighPerformanceSection = ({ isMonthly, data }) => {
               <div className="col-md-3">
                 <div className="cards-container">
                   <PlansCard
+                    scrollSpy={"managed-websites"}
                     bgColor={"#F8F9FA"}
                     data={el}
                     isMonthly={isMonthly}

@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
         <meta
           property="og:image"
           content={
-            "https://res.cloudinary.com/xuppi-com/image/upload/v1657959406/favicon_si56il.png"
+            "https://res.cloudinary.com/xuppi-com/image/upload/v1666165547/Thunderbolt_favicon_white_bs1k0i.png"
           }
         />
         <link

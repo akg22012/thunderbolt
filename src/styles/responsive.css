@@ -329,9 +329,9 @@
     white-space: initial;
   }
 
-  .list-section .list-option {
+  /* .list-section .list-option {
     margin: 0;
-  }
+  } */
 
   .list-option-active {
     margin: 0;

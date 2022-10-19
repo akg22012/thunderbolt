@@ -87,7 +87,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="mt-3 footer-social-icons justify-content-between mb-md-3 mt-md-2">
-            <a
+            {/* <a
               href="https://www.linkedin.com/company/88646989/admin/"
               target={"_blank"}
               className="mt-3 pointer"
@@ -97,7 +97,7 @@ const Footer = () => {
                 width={"100%"}
                 height={"100%"}
               />
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/company/88646989/admin/"
               target={"_blank"}
