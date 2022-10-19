@@ -31,7 +31,6 @@ const Layout = ({ children }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
-
         <meta
           property="og:image"
           itemProp="image"
@@ -42,27 +41,25 @@ const Layout = ({ children }) => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:site_name" content="Thunderbolt" />
+        <meta property="og:site_name" content="Thunderboltjs" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={"https://thunderboltjs.com/"} />
-
         <meta
           property="og:title"
-          content="A superfast website that gives you 3x ROI - ThunderboltJs by RazrCorp"
+          content="A blazing fast framework to load your site in less than 2 seconds for as low as 50€/month."
         />
         <meta
           property="og:description"
-          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
+          content="Boost your campaign conversions upto 3X. Increase time spent upto 5X"
         />
         <meta
           name="description"
-          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
+          content="Boost your campaign conversions upto 3X. Increase time spent upto 5X"
         />
         <meta
           name="keywords"
           content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
         />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow" />
         <meta
@@ -73,7 +70,6 @@ const Layout = ({ children }) => {
           name="bingbot"
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-
         <link
           rel="icon"
           type="image/png"
