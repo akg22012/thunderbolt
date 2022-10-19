@@ -15,6 +15,30 @@ body {
   display: none;
 }
 
+/* custom */
+.progress-line-common,
+.progress-line-common:before {
+  height: 5px;
+  width: 100%;
+  margin: 0;
+}
+
+.progress-line-common {
+  background-color: #ffffff;
+  position: fixed;
+  display: -webkit-flex;
+  display: flex;
+  z-index: 888899;
+}
+
+.progress-line-common:before {
+  background-color: #ec3832;
+  content: "";
+  -webkit-animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+
 /* header */
 
 .navbar-brand img {
@@ -688,6 +712,17 @@ body {
   align-items: center;
 }
 
+.monthly-card .billed-info {
+  font-size: 17px;
+  color: #1db954 !important;
+}
+
+.plans-card-container .billed-info {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1db954 !important;
+}
+
 .plans-info {
   font-size: 14px;
   font-weight: normal;
@@ -698,7 +733,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 70px;
   width: 90%;
   margin: 0 auto;
 }
@@ -1165,7 +1200,7 @@ body {
 
 .web-vitals-section {
   /* min-height: 733px; */
-  margin-bottom: 10em;
+  margin-bottom: 8em;
 }
 
 .web-vitals-section .search-box {
@@ -1174,6 +1209,7 @@ body {
 
 .search-webpage {
   margin-top: 7em;
+  margin-bottom: 3em;
 }
 
 .search-webpage h3 {
@@ -1576,7 +1612,7 @@ body {
   padding-right: 4rem;
   padding-left: 4rem;
   position: relative; */
-  min-height: 60px;
+  /* min-height: 60px; */
 }
 
 .contact-sales {

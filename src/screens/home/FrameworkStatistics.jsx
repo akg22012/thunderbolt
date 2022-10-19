@@ -15,6 +15,7 @@ import seventy from "../../images/circles/70.webp";
 import eighty from "../../images/circles/80.webp";
 import ninety from "../../images/circles/90.webp";
 import hundred from "../../images/circles/100.webp";
+import spinner from "../../images/spinner.gif";
 
 export const FrameworkStatistics = () => {
   const [baseUrl, setBaseUrl] = useState("");
@@ -94,7 +95,8 @@ export const FrameworkStatistics = () => {
     if (categories) {
       let res = {};
       for (let category in categories) {
-        res[category] = categories[category].score * 100;
+        let score = categories[category].score * 100;
+        res[category] = Math.floor(score);
       }
       setMetrics(res);
       setCategories(null);
@@ -113,6 +115,25 @@ export const FrameworkStatistics = () => {
     <>
       <section className="web-vitals-section" id="page-speed">
         <h2 className="title">Discover your core web vitals</h2>
+        <div className="search-webpage">
+          <h3>How fast is your website?</h3>
+          <div className="search-box">
+            <input
+              value={baseUrl}
+              onChange={handleChange}
+              placeholder="Enter your webpage URL"
+              type="text"
+            />
+            <button
+              disabled={disabled || isLoading}
+              onClick={() => setClicked(true)}
+            >
+              {isLoading ? "Calculating..." : "Analyze"}
+            </button>
+          </div>
+          {error && <p className="danger-info">Please insert a valid url</p>}
+        </div>
+
         <div className="stats">
           <div className="container">
             <div className="row stats-container">
@@ -179,25 +200,6 @@ export const FrameworkStatistics = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="search-webpage">
-          <h3>How fast is your website?</h3>
-          <div className="search-box">
-            <input
-              value={baseUrl}
-              onChange={handleChange}
-              placeholder="Enter your webpage URL"
-              type="text"
-            />
-            <button
-              disabled={disabled || isLoading}
-              onClick={() => setClicked(true)}
-            >
-              {isLoading ? "Calculating..." : "Analyze"}
-            </button>
-          </div>
-          {error && <p className="danger-info">Please insert a valid url</p>}
         </div>
       </section>
 

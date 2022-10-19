@@ -151,9 +151,9 @@ const PlansSection = () => {
               * VAT/Taxes to be charged additional as per country of purchase
             </p>
             <p className="price-footer-info">
-              ** One-Off Set Up Cost for migration of your existing to new
-              framework - € 250 if you have exisiting site for 5 HTML pages +
-              Additional € 10 per page
+              *One-off migration charge for transfer of your existing website to
+              new framework - €250/£250 per site for Upto 5 Html pages website
+              with additional €10/£10 per page*
             </p>
           </div>
         </div>

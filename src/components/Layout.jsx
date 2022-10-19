@@ -34,17 +34,20 @@ const Layout = ({ children }) => {
 
         <meta
           name="description"
-          content="It's time for a super fast dotcom. Thunderbolt is a framework built on open source tech powered by react to load your website in less than 2 seconds."
+          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
         />
         <meta
           name="keywords"
-          content="Load website faster, decrease website loading speed,"
+          content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
         />
 
-        <meta property="og:title" content="Home" />
+        <meta
+          property="og:title"
+          content="A superfast website that gives you 3x ROI - ThunderboltJs by RazrCorp"
+        />
         <meta
           property="og:description"
-          content="It's time for a super fast dotcom. Thunderbolt is a framework built on open source tech powered by react to load your website in less than 2 seconds."
+          content="Boost your marketing conversions upto 3x with our blazing fast technology - ThunderboltJs by RazrCorp"
         />
 
         <meta

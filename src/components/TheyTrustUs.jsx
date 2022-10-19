@@ -21,6 +21,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientCastrol}
                 alt="castrol"
@@ -29,12 +31,20 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.clientToi} alt="toi" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.clientToi}
+                alt="toi"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientGoeres}
                 alt="goeres"
@@ -44,6 +54,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientFirstpost}
                 alt="firstpost"
@@ -52,12 +64,20 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.clientLt} alt="l-t" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.clientLt}
+                alt="l-t"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientFlipkart}
                 alt="flipkart"
@@ -67,6 +87,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientLatestly}
                 alt="latestly"
@@ -76,6 +98,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientTeamup}
                 alt="teamup"
@@ -85,6 +109,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientIronman}
                 alt="ironman"
@@ -93,12 +119,20 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.fiveRing} alt="5_Ring" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.fiveRing}
+                alt="5_Ring"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.twoImirates}
                 alt="2_Emirates"
@@ -107,17 +141,31 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.threeMgs} alt="3_MG" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img loading="lazy" src={ImageConstants.sevenGMC} alt="7_GMC" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.threeMgs}
+                alt="3_MG"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.sevenGMC}
+                alt="7_GMC"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.sevenChevrolet}
                 alt="7_Chevrolet"
@@ -126,12 +174,20 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.oneIsuzu} alt="1_Isuzu" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.oneIsuzu}
+                alt="1_Isuzu"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.sixRoyalEnfield}
                 alt="6_Royal-Enfield"
@@ -141,6 +197,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.fourLoreal}
                 alt="4_Loreal"
@@ -149,12 +207,20 @@ const TheyTrustUs = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img loading="lazy" src={ImageConstants.nineBp} alt="9_bp" />
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.nineBp}
+                alt="9_bp"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientVodafone}
                 alt="client-vodafone"
@@ -164,6 +230,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientGeMoney}
                 alt="client-ge-money"
@@ -173,6 +241,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientAudi}
                 alt="client-audi"
@@ -182,6 +252,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientArcelor}
                 alt="client-arcelor"
@@ -191,6 +263,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientTomorrowStreet}
                 alt="tomorrow-street"
@@ -200,6 +274,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientCna}
                 alt="client-cna"
@@ -209,6 +285,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientTechnoport}
                 alt="client-technoport"
@@ -218,6 +296,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientChronicle}
                 alt="client-chronicle"
@@ -227,6 +307,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientEy}
                 alt="client-ey"
@@ -236,6 +318,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientMpay}
                 alt="client-mpay"
@@ -245,6 +329,8 @@ const TheyTrustUs = () => {
           <SwiperSlide>
             <div>
               <img
+                width={"100%"}
+                height={"100%"}
                 loading="lazy"
                 src={ImageConstants.clientWikiStage}
                 alt="client-WikiStage"

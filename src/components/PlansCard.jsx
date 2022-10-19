@@ -16,12 +16,15 @@ const PlansCard = ({ data, isMonthly, bgColor = "#FFFFFF", scrollSpy }) => {
               </p>
               <p className="price-value">{data?.price?.price}</p>
             </div>
-            <p className="price-info">{isMonthly ? "per month" : "per year"}</p>
+            <p className="price-info">{"per month"}</p>
           </>
         ) : (
           <p className="custom-text">Contact Sales</p>
         )}
       </div>
+      {!isMonthly && !data?.isCustom ? (
+        <p className="billed-info">(Billed annually)</p>
+      ) : null}
       <p className="price-info-bold">{data?.pages}</p>
       <a target={"_blank"} href={data.link}>
         <button className="get-started">Get started</button>

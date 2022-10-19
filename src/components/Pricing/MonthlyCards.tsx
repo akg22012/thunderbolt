@@ -167,8 +167,11 @@ const MonthlyCards = ({
                       )}
                       <strong>{d.price.price}</strong>
                       {showFeaturs && d?.symbol !== false && (
-                        <span> per {isMonthly ? "month" : "year"}</span>
+                        <span> per month</span>
                       )}
+                      {!isMonthly && d.link ? (
+                        <p className="billed-info">(Billed annually)</p>
+                      ) : null}
 
                       {showSub && (
                         <span className="monthly-cost-sub-description">

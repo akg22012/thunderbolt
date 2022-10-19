@@ -127,9 +127,11 @@ const PayMonthlyWebsite = ({
                     )}
                     <strong>{d.price.price}</strong>
 
-                    <span> per {isMonthly ? "month" : "year"}</span>
+                    <span> per month</span>
 
-                    <br />
+                    {!isMonthly && d.link ? (
+                      <p className="billed-info">(Billed annually)</p>
+                    ) : null}
                   </p>
 
                   <a
