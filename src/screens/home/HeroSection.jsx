@@ -5,6 +5,7 @@ import ClientsImages from "../../components/ClientsImages";
 import HomeBanner from "../../images/home-banner.webp";
 import HomeBanner2 from "../../images/home-banner2.webp";
 import HomeBanner3 from "../../images/home-banner3.webp";
+import { StaticImage } from "gatsby-plugin-image";
 
 const HeroSection = () => {
   return (
@@ -29,13 +30,17 @@ const HeroSection = () => {
                     </a>
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
-                    <img
+                    <StaticImage
+                      src="../../images/home-banner.webp"
+                      alt="banner"
+                    />
+                    {/* <img
                       className="banner1"
                       src={HomeBanner}
                       alt=""
                       width={"100%"}
                       height={"100%"}
-                    />
+                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -55,13 +60,17 @@ const HeroSection = () => {
                     </a>
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
-                    <img
+                    <StaticImage
+                      src="../../images/home-banner2.webp"
+                      alt="banner"
+                    />
+                    {/* <img
                       className="banner2"
                       src={HomeBanner2}
                       alt=""
                       width={"100%"}
                       height={"100%"}
-                    />
+                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -81,13 +90,17 @@ const HeroSection = () => {
                     </a>
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
-                    <img
+                    <StaticImage
+                      src="../../images/home-banner3.webp"
+                      alt="banner"
+                    />
+                    {/* <img
                       className="banner3"
                       src={HomeBanner3}
                       alt=""
                       width={"100%"}
                       height={"100%"}
-                    />
+                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
