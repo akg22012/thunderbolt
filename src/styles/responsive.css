@@ -279,9 +279,13 @@
     flex-direction: column-reverse;
   }
 
-  .banner-img img {
-    width: 80% !important;
+  .banner-img {
+    padding: 20px;
   }
+
+  /* .banner-img img {
+    width: 80% !important;
+  } */
 
   .hero-section .content-section {
     padding: 20px;
@@ -571,13 +575,13 @@
     flex-direction: column-reverse;
   }
 
-  .banner-img img {
+  /* .banner-img img {
     width: 80% !important;
     height: auto !important;
     margin: auto;
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .hero-section .title {
     width: 90%;

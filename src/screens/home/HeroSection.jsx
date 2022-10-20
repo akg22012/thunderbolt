@@ -1,11 +1,8 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { homeSlider } from "../../constants/swiperConstants";
 import ClientsImages from "../../components/ClientsImages";
-import HomeBanner from "../../images/home-banner.webp";
-import HomeBanner2 from "../../images/home-banner2.webp";
-import HomeBanner3 from "../../images/home-banner3.webp";
-import { StaticImage } from "gatsby-plugin-image";
+import { homeSlider } from "../../constants/swiperConstants";
 
 const HeroSection = () => {
   return (
@@ -31,16 +28,12 @@ const HeroSection = () => {
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
                     <StaticImage
-                      src="../../images/home-banner.webp"
+                      src="../../images/home-banner1.jpg"
                       alt="banner"
+                      width={529}
+                      height={335}
+                      formats={["webp"]}
                     />
-                    {/* <img
-                      className="banner1"
-                      src={HomeBanner}
-                      alt=""
-                      width={"100%"}
-                      height={"100%"}
-                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -61,16 +54,12 @@ const HeroSection = () => {
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
                     <StaticImage
-                      src="../../images/home-banner2.webp"
+                      src="../../images/home-banner2.jpg"
+                      width={490}
+                      height={497}
                       alt="banner"
+                      formats={["webp"]}
                     />
-                    {/* <img
-                      className="banner2"
-                      src={HomeBanner2}
-                      alt=""
-                      width={"100%"}
-                      height={"100%"}
-                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -91,16 +80,12 @@ const HeroSection = () => {
                   </div>
                   <div className="col-sm-12 col-lg-6 banner-img">
                     <StaticImage
-                      src="../../images/home-banner3.webp"
+                      src="../../images/home-banner3.jpg"
+                      width={482}
+                      height={482}
                       alt="banner"
+                      formats={["webp"]}
                     />
-                    {/* <img
-                      className="banner3"
-                      src={HomeBanner3}
-                      alt=""
-                      width={"100%"}
-                      height={"100%"}
-                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
