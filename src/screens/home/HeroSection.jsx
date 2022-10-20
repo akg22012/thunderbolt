@@ -32,6 +32,7 @@ const HeroSection = () => {
                       alt="banner"
                       width={529}
                       height={335}
+                      placeholder={"tracedSVG"}
                       formats={["webp"]}
                     />
                   </div>
@@ -55,9 +56,10 @@ const HeroSection = () => {
                   <div className="col-sm-12 col-lg-6 banner-img">
                     <StaticImage
                       src="../../images/home-banner2.jpg"
+                      alt="banner"
                       width={490}
                       height={497}
-                      alt="banner"
+                      placeholder={"tracedSVG"}
                       formats={["webp"]}
                     />
                   </div>
@@ -81,9 +83,10 @@ const HeroSection = () => {
                   <div className="col-sm-12 col-lg-6 banner-img">
                     <StaticImage
                       src="../../images/home-banner3.jpg"
+                      alt="banner"
                       width={482}
                       height={482}
-                      alt="banner"
+                      // placeholder={"tracedSVG"}
                       formats={["webp"]}
                     />
                   </div>
