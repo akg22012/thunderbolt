@@ -577,6 +577,7 @@ body {
   color: #1d1d1d;
 }
 
+/* 
 .banner-img {
   height: 100%;
 }
@@ -597,7 +598,7 @@ body {
 
 .banner-img .banner3 {
   width: 482px;
-}
+} */
 
 .homeslider .swiper-pagination {
   bottom: 0px;
@@ -977,7 +978,9 @@ body {
 }
 
 .why-you-need-content {
+  max-width: 1100px;
   min-height: 500px;
+  max-width: ;
   width: 75%;
   margin: auto;
 }
