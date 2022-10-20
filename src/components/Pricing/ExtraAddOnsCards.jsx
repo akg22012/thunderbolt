@@ -8,30 +8,32 @@ const ExtraAddOnsCards = ({ isMonthly, currency }) => {
       price,
     };
   };
-  console.log("isMonth", isMonthly);
   const slides = [
     {
       title: "Subscription Services",
       des: "We set up and add a newsletter subscription form to your website from any 3rd party provider such as Mailchimp.",
       sub: "One-off Cost. Works with all Plans",
-      cost: convertPrice(isMonthly ? 125 : 100),
+      cost: convertPrice(125),
       symbol: "£",
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=6e2e071d-931d-5e46-20eb-e46028758396",
       buttonText: "Get Started",
     },
     {
       title: "Abandoned Basket",
       des: "Remind your customers who have left items in their shopping basket with automatic emails at set intervals.",
       sub: "One-off Cost. Works with all Plans",
-      cost: convertPrice(isMonthly ? 250 : 200),
+      cost: convertPrice(250),
       symbol: "£",
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=15196e02-e513-6d42-295f-e429807875d3",
       buttonText: "Get Started",
     },
     {
       title: "Custom Forms",
       des: "A dedicated project team of min 3-5 developments, UI/UX designers, project managers who works with you",
       sub: "One-off Cost. Works with all Plans",
-      cost: convertPrice(isMonthly ? 60 : 48),
+      cost: convertPrice(75),
       symbol: "£",
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=57052d13-7e08-d241-591f-7495163789e6",
       buttonText: "Get Started",
     },
 
@@ -39,24 +41,27 @@ const ExtraAddOnsCards = ({ isMonthly, currency }) => {
       title: "Membership System",
       des: "We add a full-featured membership solution to your website. Lock away content and give access to valued members.",
       sub: "One-off Cost. Works with all Plans",
-      cost: convertPrice(isMonthly ? 350 : 280),
+      cost: convertPrice(350),
       symbol: "£",
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=027831d6-350d-8249-823f-949e176259e0",
       buttonText: "Get Started",
     },
     {
       title: "Paid Subscriptions",
       des: "Capture recurring revenue with a variety of paid subscriptions for physical or virtual products and services.",
       sub: "One-off Cost. Works with all Plans",
+      cost: convertPrice(450),
       symbol: "£",
-      cost: convertPrice(isMonthly ? 450 : 360),
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=301e96d2-9853-7d4e-d6ec-e4e120637085",
       buttonText: "Get Started",
     },
     {
       title: "On-Demand Developer",
       des: "Any Developers L5 Range (React/Node Js/Python/Php/Wordpress) & Application Support (Testers & Maintenance) for Man Day (7 Hours)",
       sub: "One-off Cost. Works with all Plans",
-      cost: convertPrice(isMonthly ? 150 : 12),
+      cost: convertPrice(150),
       symbol: "£",
+      link: "https://dashboard.thunderboltjs.com/order/product?catid=d35983e2-306e-7540-9ef5-4981d210d769&pid=1280d163-9e23-7d43-878a-d4610589e572",
       buttonText: "Get Started",
     },
   ];
@@ -83,10 +88,7 @@ const ExtraAddOnsCards = ({ isMonthly, currency }) => {
                   {s.des}
                 </p>
                 <br />
-                <a
-                  target={"_blank"}
-                  href="https://dashboard.thunderboltjs.com/"
-                >
+                <a target={"_blank"} href={s.link}>
                   <button
                     className={
                       isLast

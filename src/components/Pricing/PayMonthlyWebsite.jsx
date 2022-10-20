@@ -21,6 +21,9 @@ const PayMonthlyWebsite = ({
       title: "Brochure Style Website",
       des: "Launch your online platform, your way, with ease",
       price: convertPrice(isMonthly ? 75 : 60),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=9293e8d5-69d0-7245-261a-84e853121607"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=15196e02-e513-6d42-183c-e429807875d3",
       features: [
         "Free Custom Design 1-5 Pages, additional pages at extra cost",
         "Terms and Privacy Pages Included",
@@ -47,6 +50,9 @@ const PayMonthlyWebsite = ({
       title: "Booking Style Website",
       des: "The complete solution for your business growth",
       price: convertPrice(isMonthly ? 125 : 100),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=301e96d2-9853-7d4e-d5ea-e4e120637085"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=1261e509-8973-d247-0dec-145e610832d7",
       features: [
         "Free Custom Design 1-8 Pages, additional pages at extra cost",
         " Terms and Privacy Pages Included",
@@ -73,6 +79,9 @@ const PayMonthlyWebsite = ({
       title: "E-commerce Website",
       des: "Perfect for growing your high traffic sites",
       price: convertPrice(isMonthly ? 150 : 120),
+      link: isMonthly
+        ? "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=1280d163-9e23-7d43-858b-d4610589e572"
+        : "https://dashboard.thunderboltjs.com/order/product?catid=57052d13-7e08-d241-11a7-495163789e68&pid=301e96d2-9853-7d4e-9e9b-e4e120637085",
       features: [
         "Free Custom Design 1-10 Pages, additional pages at extra cost ",
         "Terms and Privacy Pages Included",
@@ -108,32 +117,29 @@ const PayMonthlyWebsite = ({
                   <p className="monthly-card-title mb-2  ">{d.title}</p>
                   <p
                     className={
-                      d?.symbol === false
-                        ? "contact-sales "
-                        : "monthly-cost"
+                      d?.symbol === false ? "contact-sales " : "monthly-cost"
                     }
                   >
                     {d?.symbol !== false && (
                       <sup className="suptext">
-                          {d?.price.currency === "euro" ? "€" : "£"}
-                          </sup>
-                   
+                        {d?.price.currency === "euro" ? "€" : "£"}
+                      </sup>
                     )}
                     <strong>{d.price.price}</strong>
 
-                    <span> per {isMonthly ? "month" : "year"}</span>
+                    <span> per month</span>
 
-                    <br />
+                    {!isMonthly && d.link ? (
+                      <p className="billed-info">(Billed annually)</p>
+                    ) : null}
                   </p>
 
                   <a
                     target={"_blank"}
-                    href="https://dashboard.thunderboltjs.com/"
+                    href={d.link}
                     className=" mt-3 get-started-btn"
                   >
-                    
-                      Get Started
-                    
+                    Get Started
                   </a>
                 </div>
                 {showFeaturs && (

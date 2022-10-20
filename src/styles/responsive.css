@@ -329,9 +329,9 @@
     white-space: initial;
   }
 
-  .list-section .list-option {
+  /* .list-section .list-option {
     margin: 0;
-  }
+  } */
 
   .list-option-active {
     margin: 0;
@@ -1151,6 +1151,10 @@
     font-size: 30px;
   }
 
+  .privacy-policy-container {
+    margin-top: 60px;
+  }
+
   .privacy-content {
     width: 90%;
     overflow: hidden;
@@ -1193,6 +1197,7 @@
 
   .terms-container .header-section {
     min-height: 450px;
+    margin-top: 60px;
   }
 
   .terms-content {

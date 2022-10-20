@@ -115,7 +115,9 @@ const Header = () => {
                     : "nav-item-canvas"
                 }
               >
-                <Link to={routes.howItWorks}>How it works</Link>
+                <Link onClick={() => setOpen(false)} to={routes.howItWorks}>
+                  How it works
+                </Link>
               </p>
               <p
                 className={
@@ -124,15 +126,17 @@ const Header = () => {
                     : "nav-item-canvas"
                 }
               >
-                <Link to={routes.pricing}>Pricing</Link>
+                <Link onClick={() => setOpen(false)} to={routes.pricing}>
+                  Pricing
+                </Link>
               </p>
               {/* <p className="nav-item-canvas">
-                <Link>Advantages</Link>
+                <Link onClick={() => setOpen(false)}>Advantages</Link>
               </p> */}
               <p className="nav-item-canvas">
                 <Link
-                  to={`${routes.home}#page-speed`}
                   onClick={() => setOpen(false)}
+                  to={`${routes.home}#page-speed`}
                 >
                   Check Pagespeed Insights
                 </Link>

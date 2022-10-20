@@ -1,13 +1,13 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import ExtraAddOnsCards from "../components/Pricing/ExtraAddOnsCards";
 import MonthlyCards from "../components/Pricing/MonthlyCards";
-import StandaredFeaturesSlider from "../components/StandaredFeaturesSlider";
 import PayMonthlyWebsite from "../components/Pricing/PayMonthlyWebsite";
-const Home = () => {
+import StandaredFeaturesSlider from "../components/StandaredFeaturesSlider";
+const Pricing = (props) => {
   const [isMonthly, setMonthly] = useState(true);
   const [currency, setCurrency] = useState("euro");
+
   return (
     <Layout>
       <div className="pricing--main-box bg-white p-md-5 p-4 ">
@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container pricing-container">
+      <div className="container pricing-container" id="hosting-cloud-services">
         <MonthlyCards
           showSub={false}
           currency={currency}
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
       </div>
       <div className="card-container  text-center">
-        <div className="hero-two">
+        <div className="hero-two " id="managed-websites">
           <PayMonthlyWebsite
             showBootom={false}
             showDescription={false}
@@ -119,4 +119,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Pricing;
