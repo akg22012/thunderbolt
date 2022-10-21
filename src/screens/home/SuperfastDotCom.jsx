@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import gatsbyLogo from "../../images/logos/gatsby-logo.webp";
+import reactLogo from "../../images/logos/react-logo.webp";
 import strapiLogo from "../../images/logos/strapi-logo.webp";
 import awsLogo from "../../images/logos/aws-logo.webp";
 import worldClassUserExperience from "../../images/superfast-dot-com/world-class-user-experience.webp";
@@ -122,7 +122,7 @@ const SuperfastDotCom = () => {
             <img
               loading="lazy"
               className="picture-big"
-              src={gatsbyLogo}
+              src={reactLogo}
               alt=""
               height={"100%"}
               width={"100%"}
