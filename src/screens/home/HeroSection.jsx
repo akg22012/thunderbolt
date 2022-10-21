@@ -34,6 +34,7 @@ const HeroSection = () => {
                       height={335}
                       placeholder={"tracedSVG"}
                       formats={["webp"]}
+                      quality={100}
                     />
                   </div>
                 </div>
@@ -61,7 +62,9 @@ const HeroSection = () => {
                       height={497}
                       placeholder={"tracedSVG"}
                       formats={["webp"]}
+                      quality={100}
                     />
+                    {/* <img src={banner} alt="" width={490} /> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -88,6 +91,7 @@ const HeroSection = () => {
                       height={482}
                       // placeholder={"tracedSVG"}
                       formats={["webp"]}
+                      quality={100}
                     />
                   </div>
                 </div>
