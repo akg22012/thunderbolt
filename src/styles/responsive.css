@@ -477,7 +477,7 @@
   }
 
   .search-webpage h3 {
-    font-size: 30px;
+    font-size: 22px;
     width: 93%;
     margin: auto;
   }
@@ -823,6 +823,10 @@
     width: 180px;
     height: 250px;
     margin-left: -40px !important;
+  }
+
+  .smileCardSlider {
+    height: 305px !important;
   }
 
   .extra-addon-div {
