@@ -126,6 +126,10 @@ body {
   height: 100% !important;
 }
 
+.nav-item-canvas a:hover {
+  color: #7B828C;
+}
+
 .home-button {
   position: absolute;
   left: 4%;
@@ -254,6 +258,10 @@ body {
   font-size: 20px;
   color: #1e2323;
   text-decoration: none;
+}
+
+.sidebar-footer-content:hover {
+  color: #7B828C;
 }
 
 /* footer */
@@ -1211,7 +1219,7 @@ body {
 }
 
 .search-webpage {
-  margin-top: 7em;
+  /* margin-top: 7em; */
   margin-bottom: 3em;
 }
 
@@ -1358,7 +1366,7 @@ body {
 }
 
 .stats-container {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
@@ -1800,6 +1808,10 @@ body {
   height: 220px;
   width: 100%;
   text-align: center !important;
+}
+
+.smileCardSlider {
+  height: 240px;
 }
 
 .smile-card p {

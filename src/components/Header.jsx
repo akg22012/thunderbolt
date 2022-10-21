@@ -169,15 +169,21 @@ const Header = () => {
 
               <div className="sidebar-footer">
                 <p
+                  className="sidebar-footer-content"
                   role={"button"}
                   onClick={() => navigate(routes.privacyPolicy)}
                 >
                   Privacy Policy
                 </p>
-                <p role={"button"} onClick={() => navigate(routes.Terms)}>
+                <p
+                  className="sidebar-footer-content"
+                  role={"button"}
+                  onClick={() => navigate(routes.Terms)}
+                >
                   Terms
                 </p>
                 <a
+                  className="sidebar-footer-content"
                   target={"_blank"}
                   href="https://dashboard.thunderboltjs.com/"
                 >
