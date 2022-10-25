@@ -103,8 +103,8 @@ const Pricing = (props) => {
         </div>
       </div>
 
-      <div className=" extra-addon-conatiner  text-center">
-        <h2 className="extra  mb-5">Extra Add-Ons</h2>
+      <div className=" extra-addon-conatiner  text-center mb-5">
+        <h2 className="extra mb-5">Extra Add-Ons</h2>
         <ExtraAddOnsCards
           isMonthly={isMonthly}
           showFeaturs={false}

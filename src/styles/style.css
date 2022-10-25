@@ -126,6 +126,10 @@ body {
   height: 100% !important;
 }
 
+.nav-item-canvas a:hover {
+  color: #7B828C;
+}
+
 .home-button {
   position: absolute;
   left: 4%;
@@ -254,6 +258,10 @@ body {
   font-size: 20px;
   color: #1e2323;
   text-decoration: none;
+}
+
+.sidebar-footer-content:hover {
+  color: #7B828C;
 }
 
 /* footer */
@@ -577,6 +585,7 @@ body {
   color: #1d1d1d;
 }
 
+/* 
 .banner-img {
   height: 100%;
 }
@@ -597,7 +606,7 @@ body {
 
 .banner-img .banner3 {
   width: 482px;
-}
+} */
 
 .homeslider .swiper-pagination {
   bottom: 0px;
@@ -688,7 +697,7 @@ body {
   background: white;
   color: black;
   width: 100%;
-  height: 366px;
+  min-height: 366px;
   border-radius: 24px;
   margin: 10px;
   padding: 20px;
@@ -977,7 +986,9 @@ body {
 }
 
 .why-you-need-content {
+  max-width: 1100px;
   min-height: 500px;
+  max-width: ;
   width: 75%;
   margin: auto;
 }
@@ -1011,7 +1022,7 @@ body {
 
 .techs-img .picture-big {
   width: 161px !important;
-  height: 42px !important;
+  /* height: 42px !important; */
   margin-right: 30px;
 }
 
@@ -1208,7 +1219,7 @@ body {
 }
 
 .search-webpage {
-  margin-top: 7em;
+  /* margin-top: 7em; */
   margin-bottom: 3em;
 }
 
@@ -1355,7 +1366,7 @@ body {
 }
 
 .stats-container {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
@@ -1797,6 +1808,10 @@ body {
   height: 220px;
   width: 100%;
   text-align: center !important;
+}
+
+.smileCardSlider {
+  height: 240px;
 }
 
 .smile-card p {

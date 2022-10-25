@@ -279,9 +279,13 @@
     flex-direction: column-reverse;
   }
 
-  .banner-img img {
-    width: 80% !important;
+  .banner-img {
+    padding: 20px;
   }
+
+  /* .banner-img img {
+    width: 80% !important;
+  } */
 
   .hero-section .content-section {
     padding: 20px;
@@ -307,6 +311,13 @@
   .content-section .img-contaiers .section-info p {
     font-weight: normal;
     font-size: 16px;
+  }
+
+  .parallax {
+    background-image: url("../images/background-mob.webp");
+    /* background-attachment: unset !important;
+    background-position: center top !important; */
+    /* background-size: contain; */
   }
 
   .list-section {
@@ -373,7 +384,7 @@
 
   .techs-img .picture-big {
     width: 125px !important;
-    height: 32px !important;
+    /* height: 32px !important; */
     margin-right: 0;
     margin: 0 10px;
   }
@@ -466,7 +477,7 @@
   }
 
   .search-webpage h3 {
-    font-size: 30px;
+    font-size: 22px;
     width: 93%;
     margin: auto;
   }
@@ -571,13 +582,13 @@
     flex-direction: column-reverse;
   }
 
-  .banner-img img {
+  /* .banner-img img {
     width: 80% !important;
     height: auto !important;
     margin: auto;
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .hero-section .title {
     width: 90%;
@@ -812,6 +823,10 @@
     width: 180px;
     height: 250px;
     margin-left: -40px !important;
+  }
+
+  .smileCardSlider {
+    height: 305px !important;
   }
 
   .extra-addon-div {
