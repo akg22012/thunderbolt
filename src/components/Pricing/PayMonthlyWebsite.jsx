@@ -136,7 +136,7 @@ const PayMonthlyWebsite = ({
 
                   <a
                     target={"_blank"}
-                    href={d.link}
+                    href={d.link ?? "#"}
                     className=" mt-3 get-started-btn"
                   >
                     Get Started

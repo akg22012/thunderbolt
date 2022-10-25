@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         <meta property="og:locale" content="en_US" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
         />
         <meta
           property="og:image"
@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
           content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
         <meta
           name="googlebot"
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
