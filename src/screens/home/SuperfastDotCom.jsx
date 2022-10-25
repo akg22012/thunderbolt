@@ -82,6 +82,8 @@ const SuperfastDotCom = () => {
                   className="hero-img"
                   src={data.find((el) => el.id === activeTab).image}
                   alt=""
+                  width={"100%"}
+                  height={"100%"}
                 />
                 <div className="section-info">
                   <p>{data.find((el) => el.id === activeTab).data}</p>

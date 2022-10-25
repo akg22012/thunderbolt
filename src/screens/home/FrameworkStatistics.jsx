@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { statsSlider } from "../../constants/swiperConstants";
 import thunderboltIcon from "../../images/icons/thunderbolt-icon.webp";
 import setUpQuery from "../../utils/pageSpeedInsights";
-import { isValidUrl } from "../../utils/utils";
+import { detectMob, isValidUrl } from "../../utils/utils";
 import zero from "../../images/circles/0.webp";
 import ten from "../../images/circles/10.webp";
 import twenty from "../../images/circles/20.webp";
@@ -16,6 +16,10 @@ import eighty from "../../images/circles/80.webp";
 import ninety from "../../images/circles/90.webp";
 import hundred from "../../images/circles/100.webp";
 
+import orangeMobile from "../../images/orange-mobile.webp";
+import orange2Mobile from "../../images/orange2-mobile.webp";
+import greenMobile from "../../images/green-mobile.webp";
+
 export const FrameworkStatistics = () => {
   const [baseUrl, setBaseUrl] = useState("");
   const [disabled, setDisabled] = useState(false);
@@ -23,6 +27,7 @@ export const FrameworkStatistics = () => {
   const [error, setError] = useState(false);
   const [clicked, setClicked] = useState(false);
   const [categories, setCategories] = useState(false);
+  const isMobile = detectMob();
 
   const [metrics, setMetrics] = useState({
     performance: 63,
@@ -71,11 +76,17 @@ export const FrameworkStatistics = () => {
 
   const checkProgressImage = (value) => {
     if (value === 100) return hundred;
-    else if (value >= 90 && value < 100) return ninety;
-    else if (value >= 80 && value < 90) return eighty;
-    else if (value >= 70 && value < 80) return seventy;
-    else if (value >= 60 && value < 70) return sixty;
-    else if (value >= 50 && value < 60) return fifty;
+    else if (value >= 90 && value < 100) {
+      if (isMobile) return greenMobile;
+      else return ninety;
+    } else if (value >= 80 && value < 90) {
+      if (isMobile) return orange2Mobile;
+      else return eighty;
+    } else if (value >= 70 && value < 80) return seventy;
+    else if (value >= 60 && value < 70) {
+      if (isMobile) return orangeMobile;
+      else return sixty;
+    } else if (value >= 50 && value < 60) return fifty;
     else if (value >= 40 && value < 50) return fourty;
     else if (value >= 30 && value < 40) return thirty;
     else if (value >= 20 && value < 30) return twenty;
