@@ -9,6 +9,7 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "../styles/style.css";
 import "../styles/responsive.css";
+import { Script } from "gatsby";
 
 const Layout = ({ children }) => {
   SwiperCore.use([Autoplay, Navigation, Pagination]);
@@ -76,10 +77,12 @@ const Layout = ({ children }) => {
           href={ImageConstants.faviconImage}
           sizes="32x32"
         />
-        <script
-          defer
-          src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"
-        ></script>
+        <Script src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"></Script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
+          strategy="off-main-thread"
+          forward={[`dataLayer.push`]}
+        />
       </Helmet>
       <Header />
       {children}
