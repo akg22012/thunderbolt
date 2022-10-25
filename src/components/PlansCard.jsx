@@ -26,7 +26,7 @@ const PlansCard = ({ data, isMonthly, bgColor = "#FFFFFF", scrollSpy }) => {
         <p className="billed-info">(Billed annually)</p>
       ) : null}
       <p className="price-info-bold">{data?.pages}</p>
-      <a target={"_blank"} href={data.link}>
+      <a target={"_blank"} href={data.link ?? "#"}>
         <button className="get-started">Get started</button>
       </a>
       <p className="pricing-read-more">

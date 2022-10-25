@@ -194,7 +194,7 @@ const MonthlyCards = ({
 
                     <a
                       target={"_blank"}
-                      href={d.link}
+                      href={d.link ?? "#"}
                       className={
                         d.symbol === false
                           ? "get-started-btn contact-sales-btn"

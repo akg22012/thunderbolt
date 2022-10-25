@@ -18,6 +18,8 @@ export function detectMob() {
   ];
 
   return toMatch.some((toMatchItem) => {
-    return navigator.userAgent.match(toMatchItem);
+    if (typeof window !== "undefined") {
+      return navigator.userAgent.match(toMatchItem);
+    }
   });
 }
