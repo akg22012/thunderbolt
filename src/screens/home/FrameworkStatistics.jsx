@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { statsSlider } from "../../constants/swiperConstants";
-import thunderboltIcon from "../../images/icons/thunderbolt-icon.webp";
-import setUpQuery from "../../utils/pageSpeedInsights";
-import { detectMob, isValidUrl } from "../../utils/utils";
 import zero from "../../images/circles/0.webp";
 import ten from "../../images/circles/10.webp";
+import hundred from "../../images/circles/100.webp";
 import twenty from "../../images/circles/20.webp";
 import thirty from "../../images/circles/30.webp";
 import fourty from "../../images/circles/40.webp";
@@ -14,11 +12,15 @@ import sixty from "../../images/circles/60.webp";
 import seventy from "../../images/circles/70.webp";
 import eighty from "../../images/circles/80.webp";
 import ninety from "../../images/circles/90.webp";
-import hundred from "../../images/circles/100.webp";
+import thunderboltIcon from "../../images/icons/thunderbolt-icon.webp";
+import setUpQuery from "../../utils/pageSpeedInsights";
+import { isValidUrl } from "../../utils/utils";
 
+import greenMobile from "../../images/green-mobile.webp";
 import orangeMobile from "../../images/orange-mobile.webp";
 import orange2Mobile from "../../images/orange2-mobile.webp";
-import greenMobile from "../../images/green-mobile.webp";
+
+import { isMobile } from "react-device-detect";
 
 export const FrameworkStatistics = () => {
   const [baseUrl, setBaseUrl] = useState("");
@@ -27,7 +29,7 @@ export const FrameworkStatistics = () => {
   const [error, setError] = useState(false);
   const [clicked, setClicked] = useState(false);
   const [categories, setCategories] = useState(false);
-  const isMobile = detectMob();
+  // const isMobile = detectMob();
 
   const [metrics, setMetrics] = useState({
     performance: 63,
