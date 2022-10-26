@@ -33,6 +33,7 @@ const PlansCard = ({ data, isMonthly, bgColor = "#FFFFFF", scrollSpy }) => {
         <Link
           to={`${routes.pricing}#${scrollSpy}`}
           state={{ monthly: isMonthly }}
+          aria-label="know more in pricing page"
         >
           Read more
         </Link>
