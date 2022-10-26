@@ -107,6 +107,7 @@ const MonthlyCards = ({
       des: "Perfect for Enterprise business",
       symbol: false,
       price: convertPrice("Contact Sales"),
+      link: "https://form.jotform.com/222974155674465",
       features: [
         "High Processing power",
         "1 website ",

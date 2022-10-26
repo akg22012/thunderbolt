@@ -15,29 +15,6 @@ body {
   display: none;
 }
 
-/* custom */
-.progress-line-common,
-.progress-line-common:before {
-  height: 5px;
-  width: 100%;
-  margin: 0;
-}
-
-.progress-line-common {
-  background-color: #ffffff;
-  position: fixed;
-  display: -webkit-flex;
-  display: flex;
-  z-index: 888899;
-}
-
-.progress-line-common:before {
-  background-color: #ec3832;
-  content: "";
-  -webkit-animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-  animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-}
-
 
 /* header */
 
@@ -1284,15 +1261,15 @@ body {
 }
 
 .stats .stats-container {
-  width: 70%;
+  width: 60%;
   margin: auto;
   /* margin-bottom: 30px; */
 }
 
 .circle-contain {
+  width: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -1309,7 +1286,7 @@ body {
 }
 
 .circle-contain .circle img {
-  width: 100%;
+  width: 110px;
 }
 
 .circle-contain .circle p {
