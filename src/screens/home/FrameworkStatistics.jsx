@@ -152,6 +152,7 @@ export const FrameworkStatistics = () => {
               <div className="col-md-3 col-6 circle-contain">
                 <div className="circle">
                   <img
+                    className="progress-img"
                     loading="lazy"
                     src={checkProgressImage(metrics.performance)}
                     alt=""
@@ -168,6 +169,7 @@ export const FrameworkStatistics = () => {
                 {" "}
                 <div className="circle">
                   <img
+                    className="progress-img"
                     loading="lazy"
                     src={checkProgressImage(metrics.accessibility)}
                     alt=""
@@ -184,6 +186,7 @@ export const FrameworkStatistics = () => {
                 {" "}
                 <div className="circle">
                   <img
+                    className="progress-img"
                     loading="lazy"
                     src={checkProgressImage(metrics["best-practices"])}
                     alt=""
@@ -200,6 +203,7 @@ export const FrameworkStatistics = () => {
                 {" "}
                 <div className="circle">
                   <img
+                    className="progress-img"
                     loading="lazy"
                     src={checkProgressImage(metrics.seo)}
                     alt=""

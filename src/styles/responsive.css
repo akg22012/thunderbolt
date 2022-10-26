@@ -170,6 +170,7 @@
   }
 
   .stats .stats-container {
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -534,6 +535,7 @@
   .circle-contain .circle p {
     font-size: 34px;
   }
+
 
   .circle-info {
     font-size: 20px;
