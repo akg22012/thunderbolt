@@ -32,9 +32,8 @@ const HeroSection = () => {
                       alt="banner"
                       width={529}
                       height={335}
-                      placeholder={"tracedSVG"}
                       formats={["webp"]}
-                      quality={100}
+                      quality={60}
                     />
                   </div>
                 </div>
@@ -60,9 +59,8 @@ const HeroSection = () => {
                       alt="banner"
                       width={490}
                       height={497}
-                      placeholder={"tracedSVG"}
                       formats={["webp"]}
-                      quality={100}
+                      quality={60}
                     />
                     {/* <img src={banner} alt="" width={490} /> */}
                   </div>
@@ -89,9 +87,9 @@ const HeroSection = () => {
                       alt="banner"
                       width={482}
                       height={482}
-                      // placeholder={"tracedSVG"}
+                      //
                       formats={["webp"]}
-                      quality={100}
+                      quality={60}
                     />
                   </div>
                 </div>
