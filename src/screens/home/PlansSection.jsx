@@ -49,6 +49,7 @@ const PlansSection = () => {
       tag: "Maximum",
       info: "Perfect for Enterprise business",
       pages: "Custom",
+      link: "https://form.jotform.com/222974155674465",
       isCustom: true,
     },
   ];

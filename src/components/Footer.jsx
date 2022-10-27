@@ -37,6 +37,7 @@ const Footer = () => {
       <div className="footer-container row">
         <div className="col-12 mt-md-0 mt-5 col-md-4 footer-logo-conatiner ">
           <img
+            alt="footer-icon"
             loading="lazy"
             className="footer-logo px-3 px-md-3"
             src={ImageConstants.logo}
@@ -91,19 +92,23 @@ const Footer = () => {
               href="https://www.instagram.com/thunderbolt.js/?igshid=YmMyMTA2M2Y%3D"
               target={"_blank"}
               className="mt-3 pointer"
+              aria-label="instagram"
             >
               <img
+                alt="footer-icon"
                 src={ImageConstants.InstaIcon}
                 width={"100%"}
                 height={"100%"}
               />
             </a>
             <a
+              aria-label="linkedin"
               href="https://www.linkedin.com/company/88646989/admin/"
               target={"_blank"}
               className="px-3 pointer"
             >
               <img
+                alt="footer-icon"
                 src={ImageConstants.LinkdinIcon}
                 width={"100%"}
                 height={"100%"}

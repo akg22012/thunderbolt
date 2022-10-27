@@ -9,6 +9,7 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "../styles/style.css";
 import "../styles/responsive.css";
+import { Script } from "gatsby";
 
 const Layout = ({ children }) => {
   SwiperCore.use([Autoplay, Navigation, Pagination]);
@@ -29,7 +30,7 @@ const Layout = ({ children }) => {
         <meta property="og:locale" content="en_US" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
         />
         <meta
           property="og:image"
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
           content="increase marketing conversions, boost marketing conversions, superfast website in Europe"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
         <meta
           name="googlebot"
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -76,10 +77,12 @@ const Layout = ({ children }) => {
           href={ImageConstants.faviconImage}
           sizes="32x32"
         />
-        <script
-          defer
-          src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"
-        ></script>
+        <Script src="https://consent.cookiefirst.com/sites/thunderboltjs.com-8db07785-6622-406d-9400-25c35cd0f103/consent.js"></Script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
+          strategy="off-main-thread"
+          forward={[`dataLayer.push`]}
+        />
       </Helmet>
       <Header />
       {children}

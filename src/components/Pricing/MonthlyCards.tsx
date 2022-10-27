@@ -107,6 +107,7 @@ const MonthlyCards = ({
       des: "Perfect for Enterprise business",
       symbol: false,
       price: convertPrice("Contact Sales"),
+      link: "https://form.jotform.com/222974155674465",
       features: [
         "High Processing power",
         "1 website ",
@@ -194,7 +195,7 @@ const MonthlyCards = ({
 
                     <a
                       target={"_blank"}
-                      href={d.link}
+                      href={d.link ?? "#"}
                       className={
                         d.symbol === false
                           ? "get-started-btn contact-sales-btn"

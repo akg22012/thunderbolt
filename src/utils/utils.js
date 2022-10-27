@@ -5,3 +5,21 @@ export const isValidUrl = (str) => {
   // const result = urlPattern.test(str);
   return true;
 };
+
+// export function detectMob() {
+//   const toMatch = [
+//     /Android/i,
+//     /webOS/i,
+//     /iPhone/i,
+//     /iPad/i,
+//     /iPod/i,
+//     /BlackBerry/i,
+//     /Windows Phone/i,
+//   ];
+
+//   return toMatch.some((toMatchItem) => {
+//     if (typeof window !== "undefined") {
+//       return navigator.userAgent.match(toMatchItem);
+//     }
+//   });
+// }
