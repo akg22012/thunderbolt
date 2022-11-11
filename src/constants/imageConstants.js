@@ -51,6 +51,20 @@ import HowItWorks3 from "../images/how-it-works-3.webp";
 import HowItWorks4 from "../images/how-it-works-4.webp";
 import HowItWorks5 from "../images/how-it-works-5.webp";
 import serviceHosting from "../images/services-hosting.webp";
+import digitalSupport from "../images/digital-support.svg";
+import yourDesign from "../images/your-desing.svg";
+import yourDesign1 from "../images/your-desing1.svg";
+import yourDesign2 from "../images/your-desing2.svg";
+import laptopWeb from "../images/laptop-how.webp";
+import lockcust from "../images/lock-eng.svg";
+import lockPlus from "../images/cust-plus.svg";
+import lockcare from "../images/cust-care.svg";
+import laptopCms from "../images/laptop-cms.svg";
+import strapiLogo from "../images/strapi-logo.svg";
+import worldIcon from "../images/world-icon.svg";
+import quickWeb from "../images/quick1.webp";
+import quickArrow from "../images/quick-Arrow.svg";
+import digitalSupportMob from "../images/digital-support-mob.svg";
 
 export const ImageConstants = {
   serviceHosting,
@@ -106,5 +120,19 @@ export const ImageConstants = {
   featureIcon,
   hero2Bg,
   Smile,
+  digitalSupport,
+  yourDesign,
+  yourDesign1,
+  yourDesign2,
+  laptopWeb,
+  lockcust,
+  lockPlus,
+  lockcare,
+  laptopCms,
+  strapiLogo,
+  worldIcon,
+  quickWeb,
+  quickArrow,
+  digitalSupportMob,
 };
 export default ImageConstants;
