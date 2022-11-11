@@ -2044,6 +2044,9 @@ body {
   border-radius: 29px;
   opacity: 1;
   overflow: hidden;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 6px 4px 24px #0000001C;
+border-radius: 24px;
 }
 
 .how-it-works-sidebar {
@@ -2671,4 +2674,168 @@ header {
   left: 0;
   background: #fff;
   z-index: 999;
+}
+
+.how-it-work-Box{
+  padding: 40px 20px;
+}
+.digital-support-Box{
+  position: relative;
+  width: 80%;
+    margin: 0 auto;
+}
+.how-it-work-Box h3{
+    font-size: 30px;
+    font-family: "aline";
+        margin-bottom: 80px;
+
+}
+.digital-support-Box img{
+  width: 100%;
+}
+.dBox-1{
+      position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.dBox-1 img{
+  width: auto;
+}
+.dBox-2{
+      position: absolute;
+       top: 16%;
+    left: 52.6%;
+    transform: translate(-50%, -50%);
+}
+.dBox-2 img{
+  width: auto;
+}
+.dBox-3{
+      position: absolute;
+    top: 50%;
+    right: -70px;
+}
+.dBox-3 img{
+  width: auto;
+}
+.laptop-howit-work{
+      margin: 50px 0;
+}
+.laptop-howit-work p{
+      font-size: 16px;
+    margin-top: 10px;
+}
+.lock-customer-main{
+      display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+        width: 60%;
+    margin: 20px auto;
+}
+.lock-customer-main .cust-box{
+    width: 33.33%;
+    text-align: center;
+}
+
+.quick-Secure-Box{
+  box-shadow: 3px 3px 20px #0000001c;
+    border: 1px solid #DBDBDB;
+    border-radius: 7px;
+    width: 70%;
+    margin: 0 auto;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+        padding: 20px;
+}
+.quick-Secure-Box .sbox{
+  width: 33.33%;
+}
+.quick-Secure-Box .quickText{
+width: 100%;
+    margin-top: 10px;
+}
+.quick-Secure-Box .quickText p{
+  color: #1E2323;
+    font-size: 16px;
+    font-weight: 700;
+        margin-bottom: 0;
+}
+.quick-Secure-Box .sbox span{
+ box-shadow: 0px 2px 4px #00000029;
+    border: 1px solid #7C00A6;
+    border-radius: 100px;
+    padding: 3px 15px;
+    font-size: 15px;
+    color: #1664F7;
+    margin: 6px 4px;
+    display: inline-block;
+}
+.quick-Secure-Box .sbox .org{
+    border-color: #0050D0;
+}
+.quick-Secure-Box .sbox .com{
+      border-color: #FF2A00;
+}
+.quick-Secure-Box .sbox .info{
+      border-color: #F400A6;
+}
+.quick-Secure-Box .sbox .edu{
+      border-color: #E8AC00;
+}
+.quick-Secure-Box .sbox .net{
+      border-color: #00D800;
+}
+.quick-Secure-Box .sbox .gov{
+      border-color: #0090D7;
+}
+.quick-Secure-Box .sbox .tv{
+      border-color: #EA0000;
+}
+.Boost-web-site{
+      margin-top: 110px;
+    text-align: center;
+        margin-bottom: 50px;
+}
+.Boost-web-site h2{
+  color: #1E2323;
+      font-size: 30px;
+    font-family: "aline";
+}
+.howitWorkslider{
+  padding-left: 70px;
+      padding-bottom: 50px;
+}
+.BoosterSliderBox{
+  text-align: left;
+}
+.BoosterSliderBox .bimg{
+      min-height: 328px;
+}
+.BoosterSliderBox .title{
+    font-size: 25px;
+    color: #1E2323;
+    font-weight: 800;
+    font-family: Montserrat;
+        margin: 10px 0 20px;
+}
+.BoosterSliderBox .title span{
+    background: #1664F7;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+        margin-right: 10px;
+}
+.BoosterSliderBox .Descriptions{
+    font-size: 18px;
+    color: #7B828C;
+}
+.how-it-mob{
+  display: none;
 }
