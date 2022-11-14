@@ -1061,7 +1061,7 @@
   }
 
   .how-it-works-hero-three {
-    margin-top: 80px;
+    margin-top: 30px;
     height: 470px;
   }
 
@@ -1309,7 +1309,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 .digital-support-Box{
-  width: 95%;
+  width: 90%;
 }
 .dBox-1 img {
     width: 130px;
@@ -1341,6 +1341,15 @@
 .hiw-hero-three-inside{
       margin-top: 0rem !important;
 }
+.footer-logo-conatiner {
+    padding-left: 0px !important;
+}
+.how-it-works-hero-card{
+      width: 90vw;
+}
+.site-footer{
+      padding-top: 50px;
+}
 }
 @media only screen and (max-width: 767px){
   .how-it-works-heading{
@@ -1352,12 +1361,16 @@
   }
   .how-it-work-Box h3{
     font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 32px;
   }
   .digital-support-Box{
-        width: 100%;
+       margin: 0 auto;
+    margin-right: auto;
   }
   .laptop-howit-work {
-    margin: 90px 0 50px;
+    margin: 40px auto;
+        width: 100%;
 }
  .laptop-howit-work img{
   width: 100%;
@@ -1411,20 +1424,21 @@
     min-height: 210px;
 }
 .dBox-1 {
-    top: 0;
-    left: -70px;
+      top: 0;
+    left: -90px;
 }
 .dBox-1 img{
       width: 100px !important;
 }
 .dBox-2{
-top: 0;
+    top: -40px;
 }
 .dBox-2 img{
   width: 100px !important;
 }
 .dBox-3{
     top: 0;
+        right: -80px;
 }
 .dBox-3 img{
       width: 100px !important;
@@ -1442,10 +1456,17 @@ top: 0;
 }
 .digital-support-Box img {
     width: auto;
-    padding-top: 170px;
+    padding-top: 70px;
         margin: 0 auto;
 }
 .how-it-mob{
   display: block;
+}
+.BoosterSliderBox .bimg img {
+    min-height: 192px;
+}
+.BoosterSliderBox .sliderTitle p{
+      height: 30px;
+      width: 10%;
 }
 }

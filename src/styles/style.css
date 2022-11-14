@@ -2683,16 +2683,19 @@ header {
   position: relative;
   width: 80%;
     margin: 0 auto;
+        margin-right: 11.5%;
 }
 .how-it-work-Box h3{
     font-size: 30px;
     font-family: "aline";
         margin-bottom: 80px;
+        line-height: 45px;
 
 }
 .digital-support-Box img{
   width: 100%;
 }
+
 .dBox-1{
       position: absolute;
     top: 50%;
@@ -2719,7 +2722,11 @@ header {
   width: auto;
 }
 .laptop-howit-work{
-      margin: 50px 0;
+        margin: 50px auto;
+    width: 70%;
+}
+.laptop-howit-work .img{
+  width: 100%;
 }
 .laptop-howit-work p{
       font-size: 16px;
@@ -2739,7 +2746,7 @@ header {
 }
 
 .quick-Secure-Box{
-  box-shadow: 3px 3px 20px #0000001c;
+  /* box-shadow: 3px 3px 20px #0000001c; */
     border: 1px solid #DBDBDB;
     border-radius: 7px;
     width: 70%;
@@ -2810,7 +2817,7 @@ width: 100%;
 .BoosterSliderBox{
   text-align: left;
 }
-.BoosterSliderBox .bimg{
+.BoosterSliderBox .bimg img{
       min-height: 328px;
 }
 .BoosterSliderBox .title{
@@ -2818,19 +2825,27 @@ width: 100%;
     color: #1E2323;
     font-weight: 800;
     font-family: Montserrat;
-        margin: 10px 0 20px;
+        margin: 0 0 20px;
+            width: 90%;
 }
-.BoosterSliderBox .title span{
-    background: #1664F7;
+.BoosterSliderBox .sliderTitle{
+      display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+        min-height: 80px;
+}
+.BoosterSliderBox .sliderTitle p{
+   background: #1664F7;
     color: #fff;
-    width: 30px;
-    height: 30px;
+       width: 8%;
+    height: 40px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 20px;
-        margin-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
 .BoosterSliderBox .Descriptions{
     font-size: 18px;

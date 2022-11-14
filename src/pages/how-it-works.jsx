@@ -144,15 +144,15 @@ const HowItWorks = () => {
                 </div>
                 <div className="dBox-2">
                   <img src={ImageConstants.yourDesign1} />
-                  <p>Your Design or Existing Site</p>
+                  <p>Our Design + CMS</p>
                 </div>
                 <div className="dBox-3">
                   <img src={ImageConstants.yourDesign2} />
-                  <p>Your Design or Existing Site</p>
+                  <p>Our Design (Static site)</p>
                 </div>
               </div>
               <div className="laptop-howit-work">
-                <img src={ImageConstants.laptopWeb} />
+                <img src={ImageConstants.laptopWeb} className="img"/>
                   <p>Converted to a blazing fast dotcom by our compiler</p>
               </div>
               <div className="lock-customer-main">
@@ -250,29 +250,40 @@ const HowItWorks = () => {
          <Swiper className="howitWorkslider" {...howitWorkslider}>
         <div className="swiper-wrapper">
           <SwiperSlide>
-            <div className="BoosterSliderBox">
+              <div className="BoosterSliderBox">
+                 <div className="bimg">
               <img
                 width={"100%"}
                 height={"100%"}
                 loading="lazy"
                 src={ImageConstants.HowItWorks1}
                 alt="castrol"
-                />
-                <p className="title"><span>1</span> Collaboration</p>
+                  />
+                </div>
+                <div className="sliderTitle">
+                  <p>1</p>
+                   <h3 className="title"> Collaboration</h3>
+                </div>
                 <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve the perfect design template for your website.</p>
                
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="BoosterSliderBox">
+              <div className="BoosterSliderBox">
+                 <div className="bimg">
               <img
                 width={"100%"}
                 height={"100%"}
                 loading="lazy"
                 src={ImageConstants.HowItWorks2}
                 alt="toi"
-                />
-                <p className="title"><span>2</span> Content & design customisations on the fly</p>
+                  />
+                </div>
+                 <div className="sliderTitle">
+                  <p>2</p>
+                   <h3 className="title"> Content & design customisations on the fly</h3>
+                </div>
+              
                 <p className="Descriptions">“Would you like some orange juice?” Or “How about some freshly squeezed pulpy orange juice?” You see what we did there. A well-researched content can influence your decisions and increase your website conversions. Check out our content packages for more information. Just like content, design has its own magic. Once you have your design in place, it’s not the end. You can always revisit your design before stepping into development.</p>
             </div>
           </SwiperSlide>
@@ -286,8 +297,12 @@ const HowItWorks = () => {
                 src={ImageConstants.HowItWorks3}
                 alt="goeres"
                   />
-                  </div>
-                <p className="title"><span>3</span> Website under construction</p>
+                </div>
+                 <div className="sliderTitle">
+                  <p>3</p>
+                   <h3 className="title"> Website under construction</h3>
+                </div>
+              
                 <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while your website is getting faster. We take xx- xx days to get your website ready.</p>
             </div>
           </SwiperSlide>
@@ -301,8 +316,12 @@ const HowItWorks = () => {
                 src={ImageConstants.HowItWorks4}
                 alt="firstpost"
                   />
-                  </div>
-                <p className="title"><span>4</span> Launch</p>
+                </div>
+                 <div className="sliderTitle">
+                  <p>4</p>
+                   <h3 className="title"> Launch</h3>
+                </div>
+             
                 <p className="Descriptions">We will share a link to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.</p>
             </div>
           </SwiperSlide>
@@ -316,8 +335,12 @@ const HowItWorks = () => {
                 src={ImageConstants.HowItWorks5}
                 alt="l-t"
                   />
-                  </div>
-                <p className="title"><span>5</span> Marketing & technical support</p>
+                </div>
+                 <div className="sliderTitle">
+                  <p>5</p>
+                   <h3 className="title"> Marketing & technical support</h3>
+                </div>
+               
                 <p className="Descriptions">We will take care of your website including code updates, hosting, maintenance, SEO, core web vitals, content updates, etc. With over a decade of experience in the industry, we can definitely help you rank higher, convert more users into customers, and increase revenue. Check out our marketing plans.</p>
             </div>
           </SwiperSlide>
