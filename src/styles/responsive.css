@@ -1469,4 +1469,7 @@
       height: 30px;
       width: 10%;
 }
+.BoosterSliderBox .sliderTitle{
+  margin-top: 10px;
+}
 }
