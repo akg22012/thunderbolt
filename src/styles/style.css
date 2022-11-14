@@ -2832,7 +2832,7 @@ width: 100%;
       display: flex;
     align-items: flex-start;
     margin-top: 30px;
-        min-height: 80px;
+        min-height: 70px;
 }
 .BoosterSliderBox .sliderTitle p{
    background: #1664F7;

@@ -281,7 +281,7 @@ const HowItWorks = () => {
                 </div>
                  <div className="sliderTitle">
                   <p>2</p>
-                   <h3 className="title"> Content & design customisations on the fly</h3>
+                   <h3 className="title"> Content & design customisations</h3>
                 </div>
               
                 <p className="Descriptions">“Would you like some orange juice?” Or “How about some freshly squeezed pulpy orange juice?” You see what we did there. A well-researched content can influence your decisions and increase your website conversions. Check out our content packages for more information. Just like content, design has its own magic. Once you have your design in place, it’s not the end. You can always revisit your design before stepping into development.</p>
