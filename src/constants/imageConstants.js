@@ -64,7 +64,7 @@ import strapiLogo from "../images/strapi-logo.svg";
 import worldIcon from "../images/world-icon.svg";
 import quickWeb from "../images/quick1.webp";
 import quickArrow from "../images/quick-Arrow.svg";
-import digitalSupportMob from "../images/digital-support-mob.svg";
+import digitalSupportMob from "../images/digital-support-mob-new.svg";
 
 export const ImageConstants = {
   serviceHosting,
