@@ -54,6 +54,17 @@ const Header = () => {
                 Pricing
               </Link>
             </li>
+            <li
+              className={
+                pathName === routes.documentation
+                  ? "nav-item active-link"
+                  : "nav-item "
+              }
+            >
+              <Link className="nav-link" to={routes.documentation}>
+                Documentation
+              </Link>
+            </li>
           </ul>
           <div className="header-btns">
             <a target={"_blank"} href="https://dashboard.thunderboltjs.com/">
