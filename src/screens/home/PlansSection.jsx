@@ -74,7 +74,7 @@ const PlansSection = () => {
       isCustom: false,
     },
     {
-      tag: "Booking Style Website",
+      tag: "E-commerce Style Website",
       price: convertPrice(150),
       pages: "Free Custom Design 1-10 Pages, additional pages at extra cost",
       link: isMonthly
