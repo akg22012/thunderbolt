@@ -1061,13 +1061,13 @@
   }
 
   .how-it-works-hero-three {
-    margin-top: 80px;
+    margin-top: 30px;
     height: 470px;
   }
 
   .hiw-hero-three-heading {
     margin-left: 5px;
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 30px;
   }
 
@@ -1305,4 +1305,174 @@
   .pricing-p {
     margin-left: 20vw !important;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.digital-support-Box{
+  width: 90%;
+}
+.dBox-1 img {
+    width: 130px;
+}
+.dBox-2 img {
+    width: 130px;
+}
+.dBox-3 img {
+    width: 130px;
+}
+.dBox-1 p, .dBox-3 p{
+  margin: 0 auto;
+      width: 80%;
+}
+.lock-customer-main{
+      width: 90%;
+}
+.quick-Secure-Box .sbox {
+    width: 100%;
+}
+.quick-Secure-Box .sbox .Arrow{
+      transform: rotate(90deg);
+    height: 150px;
+    padding: 70px 0;
+}
+.quick-Secure-Box{
+      width: 80%;
+}
+.hiw-hero-three-inside{
+      margin-top: 0rem !important;
+}
+.footer-logo-conatiner {
+    padding-left: 0px !important;
+}
+.how-it-works-hero-card{
+      width: 90vw;
+}
+.site-footer{
+      padding-top: 50px;
+}
+}
+@media only screen and (max-width: 767px){
+  .how-it-works-heading{
+        margin-bottom: 0 !important;
+    margin-top: 60px;
+  }
+  .how-it-works-card-conatiner{
+        margin-top: -230px;
+  }
+  .how-it-work-Box h3{
+    font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 32px;
+  }
+  .digital-support-Box{
+       margin: 0 auto;
+    margin-right: auto;
+  }
+  .laptop-howit-work {
+    margin: 40px auto;
+        width: 100%;
+}
+ .laptop-howit-work img{
+  width: 100%;
+ }
+ .lock-customer-main{
+      width: 100%;
+ }
+ .lock-customer-main .cust-box .img-box img{
+    width: 83px;
+ }
+ .lock-customer-main .cust-box .plus img{
+  width: auto;
+ }
+  .lock-customer-main .cust-box .customer img{
+  width: 70px;
+ }
+ .lock-customer-main .cust-box p{
+      font-size: 14px;
+ }
+ .laptop-howit-work-btm{
+      margin-top: 40px;
+ }
+  .laptop-howit-work-btm img{
+    width: auto;
+  }
+  .quick-Secure-Box{
+        width: 100%;
+  }
+  .quick-Secure-Box .sbox {
+    width: 100%;
+}
+.quick-Secure-Box .sbox .Arrow{
+      transform: rotate(90deg);
+    height: 150px;
+    padding: 70px 0;
+}
+.howitWorkslider{
+  padding-left: 20px;
+      padding-bottom: 0px;
+}
+.BoosterSliderBox .title{
+      font-size: 20px;
+}
+.BoosterSliderBox .Descriptions{
+  font-size: 15px;
+}
+.Boost-web-site h2{
+  font-size: 25px;
+}
+.BoosterSliderBox .bimg {
+    min-height: 210px;
+}
+.dBox-1 {
+      top: 0;
+    left: -90px;
+}
+.dBox-1 img{
+      width: 100px !important;
+}
+.dBox-2{
+    top: -40px;
+}
+.dBox-2 img{
+  width: 100px !important;
+}
+.dBox-3{
+    top: 0;
+        right: -80px;
+}
+.dBox-3 img{
+      width: 100px !important;
+}
+.dBox-2 p{
+  width: 100%;
+}
+.dBox-1 p, .dBox-3 p{
+      width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.how-it-desktop{
+  display: none;
+}
+.digital-support-Box img {
+    width: auto;
+    padding-top: 70px;
+        margin: 0 auto;
+}
+.how-it-mob{
+  display: block;
+}
+.BoosterSliderBox .bimg img {
+    min-height: 192px;
+}
+.BoosterSliderBox .sliderTitle p{
+      height: 30px;
+      width: 10%;
+}
+.BoosterSliderBox .sliderTitle{
+  margin-top: 10px;
+}
+.commingSoon .commingSoonHeader h1{
+      font-size: 30px;
+}
 }

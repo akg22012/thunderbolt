@@ -145,3 +145,29 @@ export const pricingSlider = {
     },
   },
 };
+
+export const howitWorkslider = {
+  observer: true,
+  observeParents: true,
+  slidesPerView: 1.2,
+  spaceBetween: 30,
+  loop: this,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1.6,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 1.6,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 2.6,
+      spaceBetween: 50,
+    },
+  },
+};

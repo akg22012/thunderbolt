@@ -4,6 +4,8 @@ import ImageConstants from "../constants/imageConstants";
 import { InView } from "react-intersection-observer";
 import routes from "../constants/routes";
 import { navigate } from "gatsby";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { howitWorkslider } from "../constants/swiperConstants";
 const HowItWorks = () => {
   const [currency, setCurrency] = useState("pounds");
 
@@ -110,31 +112,242 @@ const HowItWorks = () => {
 
   return (
     <Layout>
-      <div className="how-it-works-main-box mb-5 position-realtive">
+      <div className="how-it-works-main-box  position-realtive">
         <div className=" mt-5 d- align-items-center justify-content-center">
           <div class="p-md-5 mx-md-5  p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
             <div className="how-it-works-hero">
               <p className=" how-it-works-heading">
-                Your full <br /> digital support ecosystem
+                How it works
               </p>
-              <span className="how-it-works-des ">
+              {/* <span className="how-it-works-des">
                 We’ll cover all your technology needs when we provide you the
                 managed services, these services gives support for total peace
                 of mind while you focus on your business, and we bring in our
                 comprehensive expertise in IT
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
       </div>
       <div className="how-it-works-card-conatiner  d-md-flex align-items-center justify-content-center">
-        <div class="p-md-5 mx-md-5 p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
+        <div class="mx-md-5 p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
           <div className="row how-it-works-hero-card">
-            <img src={ImageConstants.serviceHosting} />
+            {/* <img src={ImageConstants.serviceHosting} /> */}
+            <div className="how-it-work-Box">
+              <h3>Your full <br></br> digital support ecosystem</h3>
+              <div className="digital-support-Box">
+                <img src={ImageConstants.digitalSupport} className="how-it-desktop" />
+                <img src={ImageConstants.digitalSupportMob}  className="how-it-mob"/>
+                <div className="dBox-1">
+                  <img src={ImageConstants.yourDesign} />
+                  <p>Your Design or Existing Site</p>
+                </div>
+                <div className="dBox-2">
+                  <img src={ImageConstants.yourDesign1} />
+                  <p>Our Design + CMS</p>
+                </div>
+                <div className="dBox-3">
+                  <img src={ImageConstants.yourDesign2} />
+                  <p>Our Design (Static site)</p>
+                </div>
+              </div>
+              <div className="laptop-howit-work">
+                <img src={ImageConstants.laptopWeb} className="img"/>
+                  <p>Converted to a blazing fast dotcom by our compiler</p>
+              </div>
+              <div className="lock-customer-main">
+                <div className="cust-box">
+                  <div className="img-box">
+                    <img src={ImageConstants.lockcust} />
+                    </div>
+                
+                </div>
+                <div className="cust-box">
+                    <div className="img-box plus"> 
+                    <img src={ImageConstants.lockPlus} />
+                    </div>
+                </div>
+                <div className="cust-box">
+                   <div className="img-box customer"> 
+                    <img src={ImageConstants.lockcare} />
+                      </div>
+                
+
+                </div>
+              </div>
+              <div className="lock-customer-main">
+                <div className="cust-box">
+                  
+                  <p>Looked by an engineer <br></br> incase of anything</p>
+                </div>
+                <div className="cust-box">
+                    
+
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="106.5" viewBox="0 0 9 106.5">
+  <g id="Group_20147" data-name="Group 20147" transform="translate(-679 -1263.5)">
+    <line id="Line_4822" data-name="Line 4822" y2="102" transform="translate(683.5 1263.5)" fill="none" stroke="#1664f7" stroke-width="2"/>
+    <g id="Ellipse_893" data-name="Ellipse 893" transform="translate(679 1264)" fill="#1664f7" stroke="#1664f7" stroke-width="1">
+      <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+      <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+    </g>
+    <g id="Ellipse_894" data-name="Ellipse 894" transform="translate(679 1361)" fill="#1664f7" stroke="#1664f7" stroke-width="1">
+      <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+      <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+    </g>
+  </g>
+</svg>
+
+                </div>
+                <div className="cust-box">
+                   
+                  <p>Customer service you will <br></br>  love at every step of the way</p>
+
+                </div>
+              </div>
+              <div className="laptop-howit-work laptop-howit-work-btm">
+                <img src={ImageConstants.laptopCms} />
+                  <p>We use industry leading  <img src={ImageConstants.strapiLogo} /> as your CMS <br></br> With regular updates, you don’t need to worry about anything</p>
+              </div>
+               <div className="laptop-howit-work laptop-howit-work-btm">
+                <img src={ImageConstants.worldIcon} />
+                  <p>Once done, we show you your dotcom on a test link & point it to the <br></br> domain of your choice</p>
+              </div>
+              <div className="quick-Secure-Box">
+                <div className="sbox">
+                  <span>.biz</span>
+                  <span className="org">.org</span>
+                  <span className="com">.com</span>
+                  <span className="info">.info</span>
+                  <span className="edu">.edu</span>
+                  <span className="net">.net</span>
+                  <span className="gov">.gov</span>
+                  <span className="tv">.tv</span>
+                </div>
+                <div className="sbox">
+                   <img src={ImageConstants.quickArrow}  className="Arrow"/>
+                </div>
+                <div className="sbox">
+                   <img src={ImageConstants.quickWeb} />
+                </div>
+                <div className="quickText">
+                  <p>Quick, Easy & 100% secure</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className=" mt-5 d- align-items-center justify-content-center">
+      <section>
+        <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="Boost-web-site">
+              <h2>Boost your website in 5 steps</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+         <Swiper className="howitWorkslider" {...howitWorkslider}>
+        <div className="swiper-wrapper">
+          <SwiperSlide>
+              <div className="BoosterSliderBox">
+                 <div className="bimg">
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.HowItWorks1}
+                alt="castrol"
+                  />
+                </div>
+                <div className="sliderTitle">
+                  <p>1</p>
+                   <h3 className="title"> Collaboration</h3>
+                </div>
+                <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve the perfect design template for your website.</p>
+               
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+              <div className="BoosterSliderBox">
+                 <div className="bimg">
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.HowItWorks2}
+                alt="toi"
+                  />
+                </div>
+                 <div className="sliderTitle">
+                  <p>2</p>
+                   <h3 className="title"> Content & design customisations</h3>
+                </div>
+              
+                <p className="Descriptions">“Would you like some orange juice?” Or “How about some freshly squeezed pulpy orange juice?” You see what we did there. A well-researched content can influence your decisions and increase your website conversions. Check out our content packages for more information. Just like content, design has its own magic. Once you have your design in place, it’s not the end. You can always revisit your design before stepping into development.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+              <div className="BoosterSliderBox">
+                <div className="bimg">
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.HowItWorks3}
+                alt="goeres"
+                  />
+                </div>
+                 <div className="sliderTitle">
+                  <p>3</p>
+                   <h3 className="title"> Website under construction</h3>
+                </div>
+              
+                <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while your website is getting faster. We take xx- xx days to get your website ready.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+              <div className="BoosterSliderBox">
+                 <div className="bimg">
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.HowItWorks4}
+                alt="firstpost"
+                  />
+                </div>
+                 <div className="sliderTitle">
+                  <p>4</p>
+                   <h3 className="title"> Launch</h3>
+                </div>
+             
+                <p className="Descriptions">We will share a link to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+              <div className="BoosterSliderBox">
+                  <div className="bimg">
+              <img
+                width={"100%"}
+                height={"100%"}
+                loading="lazy"
+                src={ImageConstants.HowItWorks5}
+                alt="l-t"
+                  />
+                </div>
+                 <div className="sliderTitle">
+                  <p>5</p>
+                   <h3 className="title"> Marketing & technical support</h3>
+                </div>
+               
+                <p className="Descriptions">We will take care of your website including code updates, hosting, maintenance, SEO, core web vitals, content updates, etc. With over a decade of experience in the industry, we can definitely help you rank higher, convert more users into customers, and increase revenue. Check out our marketing plans.</p>
+            </div>
+          </SwiperSlide>
+        </div>
+      </Swiper>
+      </section>
+      {/* <div className=" d- align-items-center justify-content-center">
         <div class="p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
           <div className="how-it-works-hero-two">
             <p className=" how-it-works-heading hiw-heading-hero-two mb-0">
@@ -193,7 +406,7 @@ const HowItWorks = () => {
                             </div>
                           )}
                         </InView>
-                        {/* <div
+                        <div
                           className={
                             key === 0
                               ? "col-md-2 d-none d-md-inline center-row-conatiner mt-5"
@@ -212,7 +425,7 @@ const HowItWorks = () => {
                                 : ` vl-active`
                             }
                           ></div>
-                        </div> */}
+                        </div>
                         <div className="col-md-5 col-12  ">
                           <div className="collabration-conatiner mt-5 ">
                             <p className="col-text">{card.heading}</p>
@@ -314,18 +527,17 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="how-it-works-hero-three  position-realtive">
         <div className=" d- align-items-center justify-content-center">
           <div class="p-md-5 mx-md-5 mx-2 p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
             <div className="hiw-hero-three-inside mt-3 ">
               <p className=" hiw-hero-three-heading">
-                High Performing Pay Monthly Managed Websites
+               High Performing Pay Monthly Managed Websites
               </p>
               <div className="hiw-hero-three-span-parent">
                 <span className="hiw-hero-three-inside-des ">
-                  We provides affordable digital solution for one monthly fees
-                  to design, deploy and managed your business sites.
+                 We provides affordable digital solution for one monthly fees to design, deploy and managed your business sites.
                 </span>
               </div>
               <br />

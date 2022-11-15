@@ -78,7 +78,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-12 col-md-2"></div>
-        <div className="col-md-2 col-12 px-md-5 px-3">
+        <div className="col-md-2 col-12">
           <div className="canvas-btns">
             <a href="https://dashboard.thunderboltjs.com/" target={"_blank"}>
               <button className="px-md-0 footer-action-btn">Get Started</button>
