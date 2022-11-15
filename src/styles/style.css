@@ -2854,3 +2854,27 @@ width: 100%;
 .how-it-mob{
   display: none;
 }
+.commingSoon {
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #fff;
+    background-image: url(/static/comming-soon.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.commingSoon .commingSoonHeader{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    height: 100vh;
+}
+.commingSoon .commingSoonHeader h1{
+      color: #1e2323;
+    font-family: aline;
+    font-size: 48px;
+    letter-spacing: 0;
+}

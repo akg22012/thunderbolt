@@ -1472,4 +1472,7 @@
 .BoosterSliderBox .sliderTitle{
   margin-top: 10px;
 }
+.commingSoon .commingSoonHeader h1{
+      font-size: 30px;
+}
 }
