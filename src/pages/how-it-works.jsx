@@ -261,10 +261,10 @@ const HowItWorks = () => {
                   />
                 </div>
                 <div className="sliderTitle">
-                  <p>1</p>
+                  <p><span>1</span></p>
                    <h3 className="title"> Collaboration</h3>
                 </div>
-                <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve the perfect design template for your website.</p>
+                <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve as the perfect design template for your website. </p>
                
             </div>
           </SwiperSlide>
@@ -280,11 +280,13 @@ const HowItWorks = () => {
                   />
                 </div>
                  <div className="sliderTitle">
-                  <p>2</p>
+                  <p><span>2</span></p>
                    <h3 className="title"> Content & design customisations</h3>
                 </div>
               
-                <p className="Descriptions">“Would you like some orange juice?” Or “How about some freshly squeezed pulpy orange juice?” You see what we did there. A well-researched content can influence your decisions and increase your website conversions. Check out our content packages for more information. Just like content, design has its own magic. Once you have your design in place, it’s not the end. You can always revisit your design before stepping into development.</p>
+                <p className="Descriptions">Web copies can influence your decisions without you realising them. “Would you like some orange juice?” Or “How about some freshly squeezed orange juice?” Now you know.
+And just like content, design has its own magic. Focussing on the latest design trends and user experience, our designers curate the best mix that is not just wow to the eyes but gives conversions.
+</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -299,11 +301,12 @@ const HowItWorks = () => {
                   />
                 </div>
                  <div className="sliderTitle">
-                  <p>3</p>
+                  <p><span>3</span></p>
                    <h3 className="title"> Website under construction</h3>
                 </div>
               
-                <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while your website is getting faster. We take xx- xx days to get your website ready.</p>
+                <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while we are building up your blazing-fast website. We take a minimum of 5 to get your website up and ready.
+</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -318,7 +321,7 @@ const HowItWorks = () => {
                   />
                 </div>
                  <div className="sliderTitle">
-                  <p>4</p>
+                  <p><span>4</span></p>
                    <h3 className="title"> Launch</h3>
                 </div>
              
@@ -337,11 +340,13 @@ const HowItWorks = () => {
                   />
                 </div>
                  <div className="sliderTitle">
-                  <p>5</p>
-                   <h3 className="title"> Marketing & technical support</h3>
+                  <p><span>5</span></p>
+                   <h3 className="title">Marketing & technical support</h3>
                 </div>
                
-                <p className="Descriptions">We will take care of your website including code updates, hosting, maintenance, SEO, core web vitals, content updates, etc. With over a decade of experience in the industry, we can definitely help you rank higher, convert more users into customers, and increase revenue. Check out our marketing plans.</p>
+                <p className="Descriptions">We will take care of your website including code updates, hosting, maintenance, SEO, core web vitals, content updates, etc. 
+With over a decade of experience in the industry, we can definitely help you rank higher, convert more users into customers, and increase revenue. Check out our marketing plans.
+</p>
             </div>
           </SwiperSlide>
         </div>
@@ -533,11 +538,11 @@ const HowItWorks = () => {
           <div class="p-md-5 mx-md-5 mx-2 p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
             <div className="hiw-hero-three-inside mt-3 ">
               <p className=" hiw-hero-three-heading">
-               High Performing Pay Monthly Managed Websites
+               High Performing Pay Monthly Manage Websites
               </p>
               <div className="hiw-hero-three-span-parent">
                 <span className="hiw-hero-three-inside-des ">
-                 We provides affordable digital solution for one monthly fees to design, deploy and managed your business sites.
+                 We provides affordable digital solution for one monthly fees to design, deploy and manage your business sites.
                 </span>
               </div>
               <br />

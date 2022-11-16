@@ -141,6 +141,17 @@ const Header = () => {
                   Pricing
                 </Link>
               </p>
+              <p
+                className={
+                  pathName === routes.documentation
+                    ? "nav-item-canvas active-link"
+                    : "nav-item-canvas"
+                }
+              >
+                <Link onClick={() => setOpen(false)} to={routes.documentation}>
+                  Documentation
+                </Link>
+              </p>
               {/* <p className="nav-item-canvas">
                 <Link onClick={() => setOpen(false)}>Advantages</Link>
               </p> */}
