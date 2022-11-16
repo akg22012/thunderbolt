@@ -1463,10 +1463,10 @@
   display: block;
 }
 .BoosterSliderBox .bimg img {
-    min-height: 192px;
+    height: 192px;
 }
 .BoosterSliderBox .sliderTitle p{
-      height: 30px;
+     
       width: 10%;
 }
 .BoosterSliderBox .sliderTitle{
