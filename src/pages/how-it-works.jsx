@@ -284,7 +284,7 @@ const HowItWorks = () => {
                    <h3 className="title"> Content & design customisations</h3>
                 </div>
               
-                <p className="Descriptions">Web copies can influence your decisions without you realising them. “Would you like some orange juice?” Or “How about some freshly squeezed orange juice?” Now you know.
+                <p className="Descriptions">Web copies can influence your decisions without you realising them.
 And just like content, design has its own magic. Focussing on the latest design trends and user experience, our designers curate the best mix that is not just wow to the eyes but gives conversions.
 </p>
             </div>
@@ -542,7 +542,7 @@ With over a decade of experience in the industry, we can definitely help you ran
               </p>
               <div className="hiw-hero-three-span-parent">
                 <span className="hiw-hero-three-inside-des ">
-                 We provides affordable digital solution for one monthly fees to design, deploy and manage your business sites.
+                We provides affordable digital solution on monthly basis to design, deploy and manage your business sites.
                 </span>
               </div>
               <br />
