@@ -2818,7 +2818,7 @@ width: 100%;
   text-align: left;
 }
 .BoosterSliderBox .bimg img{
-      min-height: 328px;
+      height: 328px;
 }
 .BoosterSliderBox .title{
     font-size: 25px;
@@ -2835,17 +2835,23 @@ width: 100%;
         min-height: 70px;
 }
 .BoosterSliderBox .sliderTitle p{
-   background: #1664F7;
-    color: #fff;
-       width: 8%;
-    height: 40px;
+       width: 10%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    font-size: 20px;
+   
     margin-right: 10px;
     margin-bottom: 0;
+}
+.BoosterSliderBox .sliderTitle p span{
+    width: 34px;
+    background: #1664F7;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .BoosterSliderBox .Descriptions{
     font-size: 18px;
