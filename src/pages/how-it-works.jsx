@@ -54,22 +54,22 @@ const HowItWorks = () => {
   const howItWorksList = [
     {
       heading: "Collaboration",
-      des: "Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve the perfect design template for your website.",
+      des: "Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve as the perfect design template for your website.",
       img: ImageConstants.HowItWorks1,
     },
     {
-      heading: "Content & design customisations on the fly",
-      des: "“Would you like some orange juice?” Or “How about some freshly squeezed pulpy orange juice?” You see what we did there. A well-researched content can influence your decisions and increase your website conversions. Check out our content packages for more information. Just like content, design has its own magic. Once you have your design in place, it’s not the end. You can always revisit your design before stepping into development.",
+      heading: "Content & design customisations",
+      des: "Web copies can influence your decisions without you realising them And just like content design has its own magic Focussing on the latest design trends and user experience our designers curate the best mix that is not just wow to the eyes but gives conversions.",
       img: ImageConstants.HowItWorks2,
     },
     {
       heading: "Website under construction",
-      des: "Your work now here is done! All you need to do is have a seat and sip your coffee while your website is getting faster. We take xx- xx days to get your website ready.",
+      des: "Your work now here is done! All you need to do is have a seat and sip your coffee while we build your blazing-fast website. We take a minimum of 5 days to get your website up and ready.",
       img: ImageConstants.HowItWorks3,
     },
     {
       heading: "Launch",
-      des: "We will share a link to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.",
+      des: "We share a link with you to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.",
       img: ImageConstants.HowItWorks4,
     },
     {
@@ -264,7 +264,7 @@ const HowItWorks = () => {
                   <p><span>1</span></p>
                    <h3 className="title"> Collaboration</h3>
                 </div>
-                <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve as the perfect design template for your website. </p>
+                <p className="Descriptions">Every Thunderbolt customer gets a free discovery call once the order has been placed. This collaboration helps us align with your vision. Define your niche, customer base and strategies. All in all, giving us a deeper understanding allows us to serve as the perfect design template for your website.  </p>
                
             </div>
           </SwiperSlide>
@@ -286,6 +286,7 @@ const HowItWorks = () => {
               
                 <p className="Descriptions">Web copies can influence your decisions without you realising them.
 And just like content, design has its own magic. Focussing on the latest design trends and user experience, our designers curate the best mix that is not just wow to the eyes but gives conversions.
+
 </p>
             </div>
           </SwiperSlide>
@@ -302,10 +303,10 @@ And just like content, design has its own magic. Focussing on the latest design 
                 </div>
                  <div className="sliderTitle">
                   <p><span>3</span></p>
-                   <h3 className="title"> Website under construction</h3>
+                   <h3 className="title">Website under construction</h3>
                 </div>
               
-                <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while we are building up your blazing-fast website. We take a minimum of 5 to get your website up and ready.
+                <p className="Descriptions">Your work now here is done! All you need to do is have a seat and sip your coffee while we build your blazing-fast website. We take a minimum of 5 days to get your website up and ready.
 </p>
             </div>
           </SwiperSlide>
@@ -325,7 +326,7 @@ And just like content, design has its own magic. Focussing on the latest design 
                    <h3 className="title"> Launch</h3>
                 </div>
              
-                <p className="Descriptions">We will share a link to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.</p>
+                <p className="Descriptions">We share a link with you to review your website before we make any final tweaks. Once approved, our team will launch your website following the best industry standards.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -346,6 +347,7 @@ And just like content, design has its own magic. Focussing on the latest design 
                
                 <p className="Descriptions">We will take care of your website including code updates, hosting, maintenance, SEO, core web vitals, content updates, etc. 
 With over a decade of experience in the industry, we can definitely help you rank higher, convert more users into customers, and increase revenue. Check out our marketing plans.
+
 </p>
             </div>
           </SwiperSlide>
@@ -538,11 +540,12 @@ With over a decade of experience in the industry, we can definitely help you ran
           <div class="p-md-5 mx-md-5 mx-2 p-0 m-0  mb-2 jumbotron text-center jumbotron-fluid">
             <div className="hiw-hero-three-inside mt-3 ">
               <p className=" hiw-hero-three-heading">
-               High Performing Pay Monthly Manage Websites
+              High Performing Pay Monthly Managed Websites
               </p>
               <div className="hiw-hero-three-span-parent">
                 <span className="hiw-hero-three-inside-des ">
-                We provides affordable digital solution on monthly basis to design, deploy and manage your business sites.
+               We provide affordable digital solutions on a monthly basis to design, deploy and manage your websites.
+
                 </span>
               </div>
               <br />
