@@ -9,7 +9,7 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "../styles/style.css";
 import "../styles/responsive.css";
-// import { Script } from "gatsby";
+import { Script } from "gatsby";
 
 const Layout = ({ children }) => {
   SwiperCore.use([Autoplay, Navigation, Pagination]);
