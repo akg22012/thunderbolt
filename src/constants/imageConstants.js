@@ -16,8 +16,8 @@ import sixRoyalEnfield from "../../src/images/theytrustus/6_Royal-Enfield.webp";
 import fourLoreal from "../../src/images/theytrustus/4_Loreal.webp";
 import nineBp from "../../src/images/theytrustus/9_bp.webp";
 import clientVodafone from "../../src/images/theytrustus/client-vodafone.webp";
-import clientGeMoney from "../../src/images/theytrustus/client-ge-money.webp";
-import clientAudi from "../../src/images/theytrustus/client-audi.webp";
+import clientGeMoney from "../../src/images/theytrustus/technoport-logo.png";
+import clientAudi from "../../src/images/theytrustus/farvest-logo.webp";
 import clientArcelor from "../../src/images/theytrustus/client-arcelor.webp";
 import clientTomorrowStreet from "../../src/images/theytrustus/client-tomorrow-street.webp";
 import clientCna from "../../src/images/theytrustus/client-cna.webp";
@@ -65,6 +65,21 @@ import worldIcon from "../images/world-icon.svg";
 import quickWeb from "../images/quick1.webp";
 import quickArrow from "../images/quick-Arrow.svg";
 import digitalSupportMob from "../images/digital-support-mob-new.svg";
+import becameagencyBanner from "../images/agency_partner_banner.webp";
+import agencyEernmore from "../images/agency-earnmore.svg";
+import agencysuperfat from "../images/agency-superfast.svg";
+import agencyResult from "../images/agency-result.svg";
+import startupBanner from "../images/startup_banner.webp";
+import applyhowcardone from "../images/Apply-how-1.webp";
+import applyhowcardtwo from "../images/Apply-how-2.webp";
+import startupHowItwork1 from "../images/startup-howit-icon-1.svg";
+import startupHowItwork2 from "../images/startup-howit-icon-2.svg";
+import startupHowItwork3 from "../images/startup-howit-icon-3.svg";
+import startupTemplate1 from "../images/startuptemplate-1.webp";
+import startupTemplate2 from "../images/startuptemplate-2.webp";
+import startupTemplate3 from "../images/startuptemplate-3.webp";
+
+
 
 export const ImageConstants = {
   serviceHosting,
@@ -134,5 +149,18 @@ export const ImageConstants = {
   quickWeb,
   quickArrow,
   digitalSupportMob,
+  becameagencyBanner,
+  agencyEernmore,
+  agencysuperfat,
+  agencyResult,
+  startupBanner,
+  applyhowcardone,
+  applyhowcardtwo,
+  startupHowItwork1,
+  startupHowItwork2,
+  startupHowItwork3,
+  startupTemplate1,
+  startupTemplate2,
+  startupTemplate3,
 };
 export default ImageConstants;

@@ -1350,6 +1350,36 @@
 .site-footer{
       padding-top: 50px;
 }
+.reverFlexMobile{
+  flex-wrap: wrap-reverse;
+}
+.becamePartnertitle h1{
+  margin: 50px 0;
+}
+.slider-bg-text{
+  left: 18%;
+      font-size: 23px;
+}
+.becameagency .swiper-wrapper::before{
+      left: 50px;
+}
+.howitWorkCard{
+      width: 100%;
+}
+.howitWorkCard .box-1 .titlebox h4 span{
+  font-size: 15px;
+  width: 24px;
+    height: 24px;
+}
+.howitWorkCard .box-1 .titlebox h3{
+      font-size: 18px;
+}
+.whoisitfor{
+      margin: 50px 0;
+}
+.applySuper {
+    margin-bottom: 70px;
+}
 }
 @media only screen and (max-width: 767px){
   .how-it-works-heading{
@@ -1474,5 +1504,73 @@
 }
 .commingSoon .commingSoonHeader h1{
       font-size: 30px;
+}
+.reverFlexMobile{
+  flex-wrap: wrap-reverse;
+}
+.becamePartnertitle h1{
+  font-size: 23px;
+  line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.becameagency .swiper-wrapper{
+      padding-left: 0;
+          margin-top: 110px;
+}
+.slider-bg-text{
+      top: 10%;
+    left: 50%;
+    text-align: center;
+    font-size: 23px;
+}
+.whyPartnerBox h5{
+  font-size: 20px;
+}
+.howittext h2{
+  font-size: 22px;
+}
+.howittext p{
+  font-size: 16px;
+   
+}
+.StartupSlider .swiper-wrapper{
+  margin-top: 160px;
+}
+.Apply-slider-bg-text{
+  top: 11%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.Apply-slider-bg-text h5{
+      font-size: 22px;
+}
+.Apply-slider-bg-text h6{
+  font-size: 32px;
+}
+.Apply-slider-bg-text p {
+    font-size: 15px;
+    
+}
+
+.howitWorkCard .box-1{
+      width: 100%;
+      padding: 0;
+          margin-bottom: 30px;
+}
+.howitWorkCard .box-1 .titlebox h4 span{
+  font-size: 16px;
+  width: 24px;
+    height: 24px;
+}
+.howitWorkCard .box-1 .titlebox h3{
+  font-size: 16px;
+}
+.whoisitfor{
+      margin: 50px 0;
+}
+.applySuper {
+    margin-bottom: 30px;
 }
 }

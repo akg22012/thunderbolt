@@ -171,3 +171,26 @@ export const howitWorkslider = {
     },
   },
 };
+
+export const becameagency = {
+  observer: true,
+  observeParents: true,
+  slidesPerView: 1.2,
+  spaceBetween: 20,
+  loop: false,
+ infinite: false,
+  breakpoints: {
+    640: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3.6,
+      spaceBetween: 30,
+    },
+  },
+};

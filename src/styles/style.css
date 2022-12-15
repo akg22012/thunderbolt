@@ -966,7 +966,6 @@ body {
 .why-you-need-content {
   max-width: 1100px;
   min-height: 500px;
-  max-width: ;
   width: 75%;
   margin: auto;
 }
@@ -2883,4 +2882,219 @@ width: 100%;
     font-family: aline;
     font-size: 48px;
     letter-spacing: 0;
+}
+
+/*Became Partner*/
+.BeComePartnerSection{
+  padding: 100px 0;
+    
+}
+.becamePartnertitle h1{
+  font-size: 46px;
+    font-family: 'aline';
+    line-height: 80px;
+}
+.becamePartnerHeroimg{
+  width: 80%;
+  margin: 0 auto;
+}
+.becamePartnerHeroimg img{
+  width: 100%;
+}
+.BecamewhySlider{
+  padding: 50px 0;
+  background-color: #F8F7FF;
+}
+.becameagency .swiper-slide{
+background: unset;
+}
+.becameagency .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+      content: '';
+}
+.becameagency  .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: '';
+}
+.becameagency .swiper-button-prev{
+/* background-image: url(../images/agency-left-arrow.svg);
+background-repeat: no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 72px; */
+    display: none;
+}
+.becameagency .swiper-button-next{
+background-image: url(../images/agency-right-arrow.svg);
+background-repeat: no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 72px;
+}
+.becameagency 
+.whyPartnerBox{
+  display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 14px #00000027;
+    border-radius: 32px;
+    min-height: 400px;
+    padding: 0 20px;
+    text-align: left;
+}
+.whyPartnerBox h5{
+  font-size: 22px;
+    color: #1E2323;
+    font-family: 'aline';
+    margin: 10px 0;
+}
+.whyPartnerBox p{
+     color: #7B828C;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.HowITWorkSection{
+  padding: 100px 0;
+}
+.howittext{
+      text-align: center;
+}
+.howittext h2{
+  font-size: 34px;
+    color: #1E2323;
+    font-family: 'aline';
+}
+.howittext p{
+      font-size: 20px;
+    color: #1E2323;
+    font-family: 'Montserrat';
+    margin: 20px 0;
+        line-height: 32px;
+}
+.slider-bg-text{
+ position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    color: #1E2323;
+    font-family: 'aline';
+}
+.saveUptoBTN{
+  text-align: center;
+    margin: 40px 0;
+}
+.saveUptoBTN .btn{
+  margin: 0 10px;
+}
+.ExploreBtn, .ExploreBtn:hover{
+  border: 1px solid #1664F7;
+    border-radius: 7px;
+    color: #1664F7;
+}
+.Apply-slider-bg-text{
+  position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+   
+}
+.Apply-slider-bg-text h5{
+ font-size: 34px;
+    color: #1E2323;
+    font-family: 'aline';
+}
+.Apply-slider-bg-text h6{
+ font-size: 52px;
+    color: #1E2323;
+   
+}
+.Apply-slider-bg-text p{
+ font-size: 20px;
+    color: #7B828C;
+    
+}
+.applySuper{
+  margin-bottom: 230px;
+}
+.applySuper .techs-we-use{
+display: none;
+}
+
+.howitWorkCard{
+ display: flex;
+    flex-wrap: wrap;
+           width: 80%;
+    margin: 60px auto;
+}
+.howitWorkCard .box-1{
+  width: 50%;
+  padding: 0 30px;
+}
+.howitWorkCard .box-1 img{
+  width: 100%;
+  border-radius: 10px;
+}
+.howitWorkCard .box-1 .titlebox{
+  display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.howitWorkCard .box-1 .titlebox h4{
+  width: 10%;
+}
+.howitWorkCard .box-1 .titlebox h4 span{
+      align-items: center;
+    background: #1664f7;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+}
+.howitWorkCard .box-1 .titlebox h3{
+  color: #1E2323;
+    font-size: 24px;
+    font-weight: 700;
+        width: 90%;
+}
+.whoisitfor{
+      text-align: center;
+          margin: 90px 0;
+}
+.whoisitfor h4{
+  font-size: 24px;
+    color: #1E2323;
+    font-family: 'aline';
+        line-height: 36px;
+}
+.SectionTitle{
+      font-size: 34px;
+    color: #1E2323;
+    font-family: 'aline';
+}
+.applyLogoSection{
+      background: #F8F9FA;
+    padding: 30px 0;
+}
+.becameagency .swiper-wrapper{
+      padding-left: 60px;
+      /* justify-content: flex-end; */
+}
+.becameagency .swiper-wrapper::before{
+     content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -30px;
+  
+    background: transparent linear-gradient(90deg, #F8F7FF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.9;
+
+}
+.startupTemplateimg img{
+  width: 100%;
 }
