@@ -615,12 +615,12 @@
   .clients-img {
     width: 100%;
     overflow-x: scroll;
-    display: -webkit-box;
+ 
     flex-wrap: nowrap;
   }
 
   .clients-img img {
-    width: 100px !important;
+    width: 140px !important;
     height: auto !important;
   }
 
@@ -1516,13 +1516,10 @@
 }
 .becameagency .swiper-wrapper{
       padding-left: 0;
-          margin-top: 110px;
+          margin-top: 10px;
 }
 .slider-bg-text{
-      top: 10%;
-    left: 50%;
-    text-align: center;
-    font-size: 23px;
+     display: none;
 }
 .whyPartnerBox h5{
   font-size: 20px;
@@ -1534,14 +1531,16 @@
   font-size: 16px;
    
 }
+.howittext p br{
+  display: none;
+}
 .StartupSlider .swiper-wrapper{
-  margin-top: 160px;
+  margin-top: 10px;
 }
 .Apply-slider-bg-text{
-  top: 11%;
-    left: 50%;
-    width: 100%;
-    text-align: center;
+ display: none;
+    position: unset;
+    transform: unset;
 }
 .Apply-slider-bg-text h5{
       font-size: 22px;
@@ -1568,9 +1567,39 @@
   font-size: 16px;
 }
 .whoisitfor{
-      margin: 50px 0;
+      margin: 50px 0 0;
 }
 .applySuper {
     margin-bottom: 30px;
+}
+.BeComePartnerSection {
+    padding: 100px 0px 50px;
+}
+.becameagency .whyPartnerBox{
+  min-height: 300px;
+}
+.HowITWorkSection {
+    padding: 50px 0;
+}
+.becamePartnerHeroimg{
+      width: 100%;
+}
+.SectionTitle{
+  font-size: 23px;
+}
+.whoisitfor h4{
+      font-size: 20px;
+}
+.applyLogoSection{
+  margin-top: 50px;
+}
+.sliderTextMobile{
+  display: block;
+}
+.mobileHide{
+  display: none;
+}
+.becameagency .swiper-button-prev, .becameagency .swiper-button-next{
+  display: none;
 }
 }
