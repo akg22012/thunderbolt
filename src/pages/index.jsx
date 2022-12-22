@@ -16,7 +16,7 @@ const Home = () => {
       <FasterStats />
       <FrameworkStatistics />
       <HowItWorks />
-      <SuperfastDotCom />
+      <SuperfastDotCom superfastHeader="Why do you need a superfast dot com" />
       <PlansSection />
       <FAQs />
       <TheyTrustUs />

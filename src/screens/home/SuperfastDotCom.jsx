@@ -11,7 +11,7 @@ import lessBounceRate from "../../images/superfast-dot-com/less-bounce-rate.webp
 import scaleEffortlessly from "../../images/superfast-dot-com/scale-effortlessly.webp";
 import thunderboltIcon from "../../images/icons/thunderbolt-icon.webp";
 
-const SuperfastDotCom = () => {
+const SuperfastDotCom = ({ superfastHeader }) => {
   const [activeTab, setActiveTab] = useState(1);
   const data = [
     {
@@ -65,7 +65,7 @@ const SuperfastDotCom = () => {
   ];
   return (
     <section className="superfast-dotcom-section" id="why-thunderbolt">
-      <h1 className="superfast-title ">Why do you need a superfast dot com</h1>
+      <h1 className="superfast-title">{superfastHeader}</h1>
       <div className="why-you-need">
         <div className="why-you-need-content">
           <div className="row">

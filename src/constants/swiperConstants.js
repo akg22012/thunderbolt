@@ -175,10 +175,10 @@ export const howitWorkslider = {
 export const becameagency = {
   observer: true,
   observeParents: true,
-  slidesPerView: 1.2,
+  slidesPerView: 1.3,
   spaceBetween: 20,
   loop: false,
- infinite: false,
+  // centeredSlides: true,
   breakpoints: {
     640: {
       slidesPerView: 2.5,
@@ -186,11 +186,11 @@ export const becameagency = {
     },
     768: {
       slidesPerView: 2.5,
-      spaceBetween: 40,
+      spaceBetween: 20,
     },
     1024: {
-      slidesPerView: 3.6,
-      spaceBetween: 30,
+      slidesPerView: 3.3,
+      spaceBetween: 20,
     },
   },
 };

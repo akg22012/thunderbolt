@@ -31,18 +31,23 @@ const Becomeagency = () => {
         <div class="container">
           <div class="row">
             <div className="col-12">
+              <div className="sliderTextMobile">
+                Why partner with <br></br> thunderboltJS?
+              </div>
               <Swiper
                 className="becameagency"
                 {...becameagency}
                 navigation={true}
-                centeredSlides={true}
               >
                 <div className="slider-bg-text">
                   Why partner <br></br> with <br></br> thunderboltJS?
                 </div>
                 <div className="swiper-wrapper">
+                  <SwiperSlide className="mobileHide">
+                    <div className="emtySlider"></div>
+                  </SwiperSlide>
                   <SwiperSlide>
-                    <div className="whyPartnerBox">
+                    <div className="whyPartnerBox slider-overlay">
                       <div>
                         <img src={ImageConstants.agencyEernmore} />
                         <h5>Earn more revenue</h5>

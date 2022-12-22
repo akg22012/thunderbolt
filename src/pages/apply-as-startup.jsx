@@ -35,11 +35,18 @@ const ApplyAsStartup = () => {
         <div class="container">
           <div class="row">
             <div className="col-12">
+              <div className="Apply-slider-bg-text sliderTextMobile">
+                <h5>Save UPTO</h5>
+                <h6>90%</h6>
+                <p>
+                  Get Awesome Support & First <br></br> 3 Months Absolutely
+                  Free.
+                </p>
+              </div>
               <Swiper
                 className="becameagency StartupSlider "
                 {...becameagency}
                 navigation={true}
-                centeredSlides={true}
               >
                 <div className="Apply-slider-bg-text">
                   <h5>Save UPTO</h5>
@@ -50,8 +57,11 @@ const ApplyAsStartup = () => {
                   </p>
                 </div>
                 <div className="swiper-wrapper">
+                  <SwiperSlide className="mobileHide">
+                    <div className="emtySlider"></div>
+                  </SwiperSlide>
                   <SwiperSlide>
-                    <div className="whyPartnerBox">
+                    <div className="whyPartnerBox slider-overlay">
                       <div className="startupTemplateimg">
                         <img src={ImageConstants.startupTemplate1} />
                       </div>
@@ -161,12 +171,12 @@ const ApplyAsStartup = () => {
       <section className="applyLogoSection">
         <ClientsImages />
       </section>
-      <div>
+      <div className="FaterX">
         <FasterStats />
       </div>
 
       <div className="applySuper">
-        <SuperfastDotCom />
+        <SuperfastDotCom superfastHeader="Why you need thunderboltJS" />
       </div>
 
       <div className="mb-5">
