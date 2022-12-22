@@ -25,7 +25,11 @@ const ApplyAsStartup = () => {
             </div>
             <div className="col-lg-5">
               <div className="becamePartnerHeroimg">
-                <img src={ImageConstants.startupBanner} />
+                <img
+                  src={ImageConstants.startupBanner}
+                  width={"auto"}
+                  height={"auto"}
+                />
               </div>
             </div>
           </div>
@@ -63,21 +67,33 @@ const ApplyAsStartup = () => {
                   <SwiperSlide>
                     <div className="whyPartnerBox slider-overlay">
                       <div className="startupTemplateimg">
-                        <img src={ImageConstants.startupTemplate1} />
+                        <img
+                          src={ImageConstants.startupTemplate1}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="whyPartnerBox">
                       <div className="startupTemplateimg">
-                        <img src={ImageConstants.startupTemplate2} />
+                        <img
+                          src={ImageConstants.startupTemplate2}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="whyPartnerBox">
                       <div className="startupTemplateimg">
-                        <img src={ImageConstants.startupTemplate3} />
+                        <img
+                          src={ImageConstants.startupTemplate3}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -100,7 +116,11 @@ const ApplyAsStartup = () => {
                 <div className="howitWorkCard">
                   <div className="box-1">
                     <figure>
-                      <img src={ImageConstants.applyhowcardone} />
+                      <img
+                        src={ImageConstants.applyhowcardone}
+                        width={"auto"}
+                        height={"auto"}
+                      />
                     </figure>
                     <div className="titlebox">
                       <h4>
@@ -111,7 +131,11 @@ const ApplyAsStartup = () => {
                   </div>
                   <div className="box-1">
                     <figure>
-                      <img src={ImageConstants.applyhowcardtwo} />
+                      <img
+                        src={ImageConstants.applyhowcardtwo}
+                        width={"auto"}
+                        height={"auto"}
+                      />
                     </figure>
                     <div className="titlebox">
                       <h4>
@@ -137,7 +161,11 @@ const ApplyAsStartup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="whoisitfor">
                 <figure>
-                  <img src={ImageConstants.startupHowItwork1} />
+                  <img
+                    src={ImageConstants.startupHowItwork1}
+                    width={"auto"}
+                    height={"auto"}
+                  />
                 </figure>
                 <h4>
                   Any startup <br></br> requiring a <br></br> website
@@ -147,7 +175,11 @@ const ApplyAsStartup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="whoisitfor">
                 <figure>
-                  <img src={ImageConstants.startupHowItwork2} />
+                  <img
+                    src={ImageConstants.startupHowItwork2}
+                    width={"auto"}
+                    height={"auto"}
+                  />
                 </figure>
                 <h4>
                   Startups which <br></br> run marketing <br></br> campaigns
@@ -157,7 +189,11 @@ const ApplyAsStartup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="whoisitfor">
                 <figure>
-                  <img src={ImageConstants.startupHowItwork3} />
+                  <img
+                    src={ImageConstants.startupHowItwork3}
+                    width={"auto"}
+                    height={"auto"}
+                  />
                 </figure>
                 <h4>
                   Startups which <br></br> struggle with <br></br> lead
