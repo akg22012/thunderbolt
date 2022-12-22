@@ -39,7 +39,7 @@ const ApplyAsStartup = () => {
                 <h5>Save UPTO</h5>
                 <h6>90%</h6>
                 <p>
-                  Get Awesome Support & First <br></br> 3 Months Absolutely
+                  Get Awesome Support & First 3 Months <br></br> Absolutely
                   Free.
                 </p>
               </div>

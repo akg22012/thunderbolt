@@ -45,8 +45,11 @@ body {
   color: #747474;
   font-size: 14px;
   font-weight: normal;
+  cursor: pointer;
 }
-
+.nav-item a:hover{
+  color: #1664F7;
+}
 .nav-btn {
   display: flex;
 }
@@ -272,7 +275,7 @@ body {
   letter-spacing: 0px;
   opacity: 1;
   text-align: left;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .footer-container {
@@ -2951,6 +2954,7 @@ background-repeat: no-repeat;
     color: #1E2323;
     font-family: 'aline';
     margin: 10px 0;
+        line-height: 36px;
 }
 .whyPartnerBox p{
      color: #7B828C;
@@ -2995,6 +2999,7 @@ background-repeat: no-repeat;
   border: 1px solid #1664F7;
     border-radius: 7px;
     color: #1664F7;
+    background: #fff;
 }
 .ExploreBtn:focus-visible{
    border: 1px solid #1664F7;
@@ -3053,6 +3058,7 @@ display: none;
 .howitWorkCard .box-1 .titlebox h4{
   width: 10%;
   margin-bottom: 0;
+      padding-right: 10px;
 }
 .howitWorkCard .box-1 .titlebox h4 span{
       align-items: center;
@@ -3062,7 +3068,7 @@ display: none;
     display: flex;
     font-size: 20px;
     justify-content: center;
-    width: 34px;
+    width: 100%;
     height: 34px;
 }
 .howitWorkCard .box-1 .titlebox h3{
@@ -3124,4 +3130,54 @@ display: none;
     font-family: 'aline';
     display: none;
     text-align: center;
+}
+.Drop-down-btn{
+    transition: 0.3s;
+    position: relative;
+   
+}
+.drop-down-content{
+  background: url(..//images/menubg.webp);
+   position: absolute;
+ background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 210px;
+    transition: all 0.2s ease-in;
+    overflow:hidden;
+    height:0;
+          border-radius: 7px;
+             
+              top: 30px;
+              left: -35px;
+}
+.drop-down-content a{
+    padding:10px 15px 0;
+    font-size: 12px;
+}
+.Drop-down-btn:hover .drop-down-content{
+ height:auto;
+  padding: 25px 10px;
+
+}
+
+.Drop-down-btn .downArrowanimation{
+  background: url(../images/menudownarrow.webp);
+  width: 15px;
+    height: 15px;
+    background-repeat: no-repeat !important;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: 100% 4px !important;
+     transition: all 0.1s ease-in;
+}
+.Drop-down-btn:hover .downArrowanimation{
+   background: url(../images/menuuparrow.webp);
+  
+}
+.Drop-down-btn .drop-down-content ul{
+      padding: 0;
+        list-style-type: none;
+}
+.Drop-down-btn .drop-down-content ul li{
+      list-style-type: none;
 }
