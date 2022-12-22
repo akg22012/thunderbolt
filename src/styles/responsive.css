@@ -1,3 +1,15 @@
+ @media (min-width: 1200px) and (max-width: 1300px){
+  .Apply-slider-bg-text h5{
+    font-size: 25px;
+  }
+  .Apply-slider-bg-text h6{
+        font-size: 35px;
+  }
+  .Apply-slider-bg-text p{
+        font-size: 11px;
+  }
+ }
+
 /* mobile screen */
 @media only screen and (max-width: 768px) {
   .web-view-flex {
@@ -1308,6 +1320,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .howitWorkCard .box-1 .titlebox h4{
+        width: 15%;
+  }
 .digital-support-Box{
   width: 90%;
 }
@@ -1373,6 +1388,7 @@
 }
 .howitWorkCard .box-1 .titlebox h3{
       font-size: 18px;
+      width: 85%;
 }
 .whoisitfor{
       margin: 50px 0;
@@ -1549,7 +1565,8 @@
   font-size: 32px;
 }
 .Apply-slider-bg-text p {
-    font-size: 15px;
+    font-size: 16px;
+    font-family: 'Montserrat';
     
 }
 
@@ -1582,7 +1599,8 @@
     padding: 50px 0;
 }
 .becamePartnerHeroimg{
-      width: 100%;
+        width: 80%;
+    margin: 0 auto;
 }
 .SectionTitle{
   font-size: 23px;
@@ -1602,4 +1620,5 @@
 .becameagency .swiper-button-prev, .becameagency .swiper-button-next{
   display: none;
 }
+
 }

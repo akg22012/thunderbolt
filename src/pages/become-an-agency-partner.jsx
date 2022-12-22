@@ -21,7 +21,11 @@ const Becomeagency = () => {
             </div>
             <div className="col-lg-5">
               <div className="becamePartnerHeroimg">
-                <img src={ImageConstants.becameagencyBanner} />
+                <img
+                  src={ImageConstants.becameagencyBanner}
+                  width={"auto"}
+                  height={"auto"}
+                />
               </div>
             </div>
           </div>
@@ -49,7 +53,11 @@ const Becomeagency = () => {
                   <SwiperSlide>
                     <div className="whyPartnerBox slider-overlay">
                       <div>
-                        <img src={ImageConstants.agencyEernmore} />
+                        <img
+                          src={ImageConstants.agencyEernmore}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                         <h5>Earn more revenue</h5>
                         <p>
                           Lorem Ipsum is simply dummy text of the printing and
@@ -61,7 +69,11 @@ const Becomeagency = () => {
                   <SwiperSlide>
                     <div className="whyPartnerBox">
                       <div>
-                        <img src={ImageConstants.agencysuperfat} />
+                        <img
+                          src={ImageConstants.agencysuperfat}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                         <h5>Super-fast engineering support</h5>
                         <p>
                           Lorem Ipsum is simply dummy text of the printing and
@@ -73,7 +85,11 @@ const Becomeagency = () => {
                   <SwiperSlide>
                     <div className="whyPartnerBox">
                       <div>
-                        <img src={ImageConstants.agencyResult} />
+                        <img
+                          src={ImageConstants.agencyResult}
+                          width={"auto"}
+                          height={"auto"}
+                        />
                         <h5>Results-oriented outcome</h5>
                         <p>
                           Lorem Ipsum is simply dummy text of the printing and
