@@ -20,7 +20,12 @@ const ApplyAsStartup = () => {
                   Start your journey <br></br> with a super-fast <br></br>{" "}
                   dotcom
                 </h1>
-                <button className="btn btn-primary">Apply Now</button>
+                <a
+                  href="https://form.jotform.com/223553192855461"
+                  target="_blank"
+                >
+                  <button className="btn btn-primary">Apply Now</button>
+                </a>
               </div>
             </div>
             <div className="col-lg-5">
@@ -100,8 +105,13 @@ const ApplyAsStartup = () => {
                 </div>
               </Swiper>
               <div className="saveUptoBTN">
-                <button className="btn btn-primary">Apply Now</button>
-                <button className="btn ExploreBtn">Explore Design</button>
+                <a
+                  href="https://form.jotform.com/223553192855461"
+                  target="_blank"
+                >
+                  <button className="btn btn-primary">Apply Now</button>
+                </a>
+                {/* <button className="btn ExploreBtn">Explore Design</button> */}
               </div>
             </div>
           </div>

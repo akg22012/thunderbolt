@@ -16,7 +16,12 @@ const Becomeagency = () => {
                   Enhance, <br></br> transform & revamp your client’s digital
                   presence.
                 </h1>
-                <button className="btn btn-primary">Apply Now</button>
+                <a
+                  href="https://form.jotform.com/223553192855461"
+                  target="_blank"
+                >
+                  <button className="btn btn-primary">Apply Now</button>
+                </a>
               </div>
             </div>
             <div className="col-lg-5">
