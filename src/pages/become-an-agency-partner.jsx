@@ -65,8 +65,8 @@ const Becomeagency = () => {
                         />
                         <h5>Earn more revenue</h5>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
+                          Promise and deliver your client base a seamlessly fast
+                          website that actually helps increase marketing ROI.
                         </p>
                       </div>
                     </div>
@@ -81,8 +81,8 @@ const Becomeagency = () => {
                         />
                         <h5>Super-fast engineering support</h5>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
+                          We are here at every step to assist you. Reach out to
+                          us at our support desk.
                         </p>
                       </div>
                     </div>
@@ -97,8 +97,8 @@ const Becomeagency = () => {
                         />
                         <h5>Results-oriented outcome</h5>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
+                          Not just promises, but numbers that actually prove
+                          what we say.
                         </p>
                       </div>
                     </div>
