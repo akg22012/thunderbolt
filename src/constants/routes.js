@@ -5,5 +5,7 @@ const routes = {
   privacyPolicy: "/privacy-policy",
   Terms: "/terms",
   documentation: "/documentation",
+  becomeanaAgency: "/become-an-agency-partner",
+  applyasStartup: "/apply-as-startup",
 };
 export default routes;

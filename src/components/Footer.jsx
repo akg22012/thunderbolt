@@ -13,6 +13,7 @@ const Footer = () => {
       name: "Why ThunderboltJS",
       link: `${routes.home}#why-thunderbolt`,
     },
+
     // {
     //   name: "Who Uses",
     //   link: routes.howItWorks,
@@ -30,6 +31,14 @@ const Footer = () => {
     {
       name: "Pricing",
       link: routes.pricing,
+    },
+    {
+      name: "Become an Agency partner",
+      link: routes.becomeanaAgency,
+    },
+    {
+      name: "Apply as startup",
+      link: routes.applyasStartup,
     },
   ];
   return (

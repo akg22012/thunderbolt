@@ -65,6 +65,37 @@ const Header = () => {
                 Documentation
               </Link>
             </li>
+            <li className="Drop-down-btn nav-item">
+              <Link className="nav-link">
+                Partner with us <span className="downArrowanimation"></span>
+              </Link>
+              <div className="drop-down-content">
+                <ul>
+                  <li
+                    className={
+                      pathName === routes.applyasStartup
+                        ? "nav-item active-link"
+                        : "nav-item "
+                    }
+                  >
+                    <Link className="nav-link" to={routes.applyasStartup}>
+                      Apply As A Startup
+                    </Link>
+                  </li>
+                  <li
+                    className={
+                      pathName === routes.becomeanaAgency
+                        ? "nav-item active-link"
+                        : "nav-item "
+                    }
+                  >
+                    <Link className="nav-link" to={routes.becomeanaAgency}>
+                      Become An Agency Partner
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
           </ul>
           <div className="header-btns">
             <a target={"_blank"} href="https://dashboard.thunderboltjs.com/">
@@ -150,6 +181,31 @@ const Header = () => {
               >
                 <Link onClick={() => setOpen(false)} to={routes.documentation}>
                   Documentation
+                </Link>
+              </p>
+              <p
+                className={
+                  pathName === routes.applyasStartup
+                    ? "nav-item-canvas active-link"
+                    : "nav-item-canvas"
+                }
+              >
+                <Link onClick={() => setOpen(false)} to={routes.applyasStartup}>
+                  Apply As A Startup
+                </Link>
+              </p>
+              <p
+                className={
+                  pathName === routes.becomeanaAgency
+                    ? "nav-item-canvas active-link"
+                    : "nav-item-canvas"
+                }
+              >
+                <Link
+                  onClick={() => setOpen(false)}
+                  to={routes.becomeanaAgency}
+                >
+                  Become An Agency Partner
                 </Link>
               </p>
               {/* <p className="nav-item-canvas">
